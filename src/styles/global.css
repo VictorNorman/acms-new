@@ -48,6 +48,13 @@ main a:hover {
   color: #0b3b7a;
 }
 
+main hr {
+  max-width: 160px;
+  margin: 0.35rem auto 0.85rem;
+  border: 0;
+  border-top: 1px solid #d1d5db;
+}
+
 img {
   max-width: 100%;
   height: auto;

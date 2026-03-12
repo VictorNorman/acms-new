@@ -1,0 +1,30 @@
+---
+const { leftRatio = 1, rightRatio = 1, className = "" } = Astro.props;
+const template = `minmax(0, ${leftRatio}fr) minmax(0, ${rightRatio}fr)`;
+---
+
+<section class={`acms-two-column ${className}`.trim()} style={`--acms-two-col-template:${template};`}>
+  <div class="acms-two-column-left">
+    <slot name="left" />
+  </div>
+  <div class="acms-two-column-right">
+    <slot name="right" />
+  </div>
+</section>
+
+<style>
+  .acms-two-column {
+    display: grid;
+    grid-template-columns: var(--acms-two-col-template);
+    gap: 1.5rem;
+    align-items: start;
+    margin: 1.25rem 0;
+  }
+
+  @media (max-width: 900px) {
+    .acms-two-column {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+  }
+</style>

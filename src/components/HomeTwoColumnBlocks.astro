@@ -1,0 +1,82 @@
+---
+import TwoColumn from "./TwoColumn.astro";
+---
+
+<TwoColumn>
+  <article slot="left" class="home-card">
+    <img src="/media/laptop-apple-macbook-2562361.jpg" alt="Laptop on desk" />
+    <h5>Computer Science</h5>
+    <p>
+      The computer science subgroup of the ACMS consists of computer scientists and mathematicians who teach computer science.
+      Click Learn More below to see Faith and Computing Resources, links to related organizations, etc.
+    </p>
+    <p><a href="/computer-science/">Learn More</a></p>
+  </article>
+
+  <article slot="right" class="home-card">
+    <img src="/media/brabanec-scaled.jpg" alt="Brabenec Lectureship" />
+    <h5>Brabenec Lectureship</h5>
+    <p>Francis Su was awarded the Brabenec Lectureship for 2024-25. Click Learn More below.</p>
+    <p><a href="/brabenec-lectureship/">Learn More</a></p>
+  </article>
+</TwoColumn>
+
+<article class="home-card">
+  <img src="/media/laptop-apple-macbook-2562361.jpg" alt="Searchable archives" />
+  <h5>Searchable Archives of Past Conference Proceedings</h5>
+  <p>
+    The Pillars Database at Taylor University contains all proceedings from past ACMS conferences from 1977 to 2019.
+    The proceedings are completely searchable.
+  </p>
+  <p><a href="https://pillars.taylor.edu/acms">Learn More</a></p>
+</article>
+
+<article class="home-card">
+  <h5>Links to Professional Organizations</h5>
+
+    <p><strong>Technology and Faith Organizations</strong></p>
+    <p>
+      <a href="https://sites.google.com/site/christiansandengineering/home"><img src="/media/CESLogo.png" alt="Christian Engineering Society" /></a><br />
+      Christian Engineering Society
+    </p>
+    <p>
+      <a href="https://www.asa3.org/ASA/topics/Mathematics/index.html"><img src="/media/ASA_Logo-e1675369009202.jpg" alt="Mathematics and the Christian Faith" /></a><br />
+      Mathematics and the Christian Faith
+    </p>
+
+    <p><strong>Mathematics Professional Organizations</strong></p>
+    <p>
+      <a href="https://www.ams.org/home/page"><img src="/media/amsFooterLogo.gif" alt="American Mathematical Society" /></a><br />
+      American Mathematical Society
+    </p>
+    <p>
+      <a href="https://www.maa.org/"><img src="/media/maa_logo_for_cml.jpg" alt="Mathematical Association of America" /></a><br />
+      Mathematical Association of America
+    </p>
+    <p>
+      <a href="https://www.siam.org/"><img src="/media/SIAM_Logo.gif" alt="Society for Industrial and Applied Mathematics" /></a><br />
+      Society for Industrial and Applied Mathematics
+    </p>
+
+    <p><strong>Computer Science Professional Organizations</strong></p>
+    <p>
+      <a href="https://www.acm.org/"><img src="/media/acm_logo.gif" alt="Association for Computing Machinery" /></a><br />
+      Association for Computing Machinery
+    </p>
+    <p>
+      <a href="https://sigcse.org/"><img src="/media/SIGCSE-logo-small.gif" alt="Special Interest Group on Computer Science Education" /></a><br />
+      Special Interest Group On Computer Science Education
+    </p>
+  </article>
+
+<style>
+  .home-card {
+    border: 1px solid #e5e7eb;
+    background: #ffffff;
+    padding: 0.9rem;
+  }
+
+  .home-card h5 {
+    margin-top: 0.6rem;
+  }
+</style>
