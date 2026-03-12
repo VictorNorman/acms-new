@@ -1,0 +1,12 @@
+---
+title: "Object Information Repository in a Christian Theory of Technology"
+layout: ../../../../../layouts/MainLayout.astro
+---
+
+**Longy O. Anyanwu**, Trinity Christian College
+
+**Abstract**  
+It has not been easy to formulate a stable Christian theory of technology. Nonetheless, some ideas and Christian theories of technology have been fielded by a handful of distinguished Christian scientists and technology experts. Although some of these ideas and theories are substantively at variance, others have sizeable common base. Important, though, is the seeming agreement on the visualization of technology as an object with embedded values and information. With object information repository as the primary focus, this study, therefore, attempts to provoke the consideration of a possible synthesis and agreement on the foundational essence of Christian theory of technology through the minimization of language disparities. It also attempts to emphasize the formulation of Christian theory of technology in the context of biblical hermeneutics. To perform these tasks, the complex intra- and inter-relationships of objects and their interpretive inherencies are detailed.
+
+**Read the Article in .PDF format here:**  
+[Object Information Repository in a Christian Theory of Technology](/media/Anyanwu.pdf)

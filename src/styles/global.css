@@ -1,0 +1,54 @@
+:root {
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  color: #111827;
+  background: #ffffff;
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.55;
+}
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1.25rem 1rem 2rem;
+}
+
+main h1,
+main h2,
+main h3,
+main h4,
+main h5,
+main h6 {
+  line-height: 1.2;
+  margin: 1.2rem 0 0.7rem;
+}
+
+main p,
+main ul,
+main ol,
+main blockquote,
+main pre,
+main table {
+  margin: 0 0 1rem;
+}
+
+main ul,
+main ol {
+  padding-left: 1.25rem;
+}
+
+main a {
+  color: #0f4d9f;
+}
+
+main a:hover {
+  color: #0b3b7a;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

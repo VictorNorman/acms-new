@@ -1,0 +1,14 @@
+---
+title: "How Will You Practice Virtue Without Skill?: Preparing Students to be Virtuous Computer Programmers"
+layout: ../../../../../layouts/MainLayout.astro
+---
+
+**Victor Norman**, Calvin College (2015).
+
+**Abstract**  
+The teaching of computer programming is often thought to be simply the teaching of a useful skill, that of learning the syntax and semantics of a programming language, and learning to solve problems by decomposing them into programmable units. And, while computer programming certainly does require a great deal of skill, is learning a new skill all that we should require of our students?
+
+The remainder of this paper will investigate the relationship between virtues and the act (and art) of computer programming, and how a teacher can encourage the practice of these virtues in programming assignments. The virtues I will investigate are hospitality, humility, integrity, honesty, creativity, stewardship, ad diligence.
+
+**Read the Article in .PDF format here:**  
+[Teaching Virtues while teaching programming](/media/Teaching-Virtues-while-teaching-programming.pdf)

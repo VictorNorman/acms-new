@@ -1,0 +1,12 @@
+---
+title: "Connecting Mathematics Students to Philosophy and Faith"
+layout: ../../../../../layouts/MainLayout.astro
+---
+
+**Nathan Moyer**, Whitworth University (2011)
+
+**Abstract**  
+This paper describes an upper-division class project that helps students wrestle with the deep philosophical questions of mathematics in a relevant way. Through article readings and group discussions, various historical views of mathematical philosophy are examined and critiqued. An emphasis is placed upon students making meaningful connections between their own views of mathematics and their personal Christian faith or worldview.
+
+**Read the Article in .PDF format here:**  
+[**Connecting Mathematics Students to Philosophy and Faith**](/media/Moyer2011.pdf)

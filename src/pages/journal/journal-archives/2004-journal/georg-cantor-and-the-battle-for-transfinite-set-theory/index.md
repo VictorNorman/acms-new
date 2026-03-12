@@ -1,0 +1,12 @@
+---
+title: "Georg Cantor and the Battle for Transfinite Set Theory"
+layout: ../../../../../layouts/MainLayout.astro
+---
+
+**Joseph Dauben** (1993).
+
+**Abstract**  
+Georg Cantor is well known as the founder of transfinite set theory. Equally celebrated, however, are the obstacles he faced in trying to win acceptance for his seemingly unorthodox views, his acrimonious differences with Leopold Kronecker and his unfortunate but progressively debilitating nervous breakdowns that some authors have linked directly to his many problems with set theory. Above all, Cantor’s justification of set theory was all the more urgent because of Kronecker’s critical denunciation of Cantor’s mathematics. In tracing the evolution of Cantorian set theory, it is necessary to examine the opposition it met, and evaluate the technical, philosophical, psychological, and even theological dimensions related to Cantor’s creation and defense of his theory.
+
+**Read the Article in .PDF format here:**  
+[Georg Cantor and the Battle for Transfinite Set Theory](/media/Dauben-Cantor.pdf)

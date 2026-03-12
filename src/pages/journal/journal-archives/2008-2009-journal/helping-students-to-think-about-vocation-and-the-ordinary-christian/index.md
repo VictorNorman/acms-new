@@ -1,0 +1,12 @@
+---
+title: "Helping Students to Think about Vocation and the “Ordinary Christian”"
+layout: ../../../../../layouts/MainLayout.astro
+---
+
+**Greg Crow and Maria Zack**, Point Loma Nazarene University
+
+**Abstract**  
+Point Loma Nazarene University (PLNU) has been engaged in a process of discussing how its mission and vision are lived out in the twenty-first century. One of the key points of conversation has revolved around the question: “How well are we really doing in providing a ‘holistic’ education that integrates academic, spiritual and social development?” Our students’ understanding of vocation as a whole-life calling for everyone (not just those who are led to ordained ministry) and the discernment of that vocation is one area where this type of holistic integration is absolutely critical. The Mathematical, Information and Computer Sciences Department at PLNU has been actively engaged in helping students to think about vocation on an individual level, at the departmental level, and in the broader institutional context. This paper describes our efforts in each of these areas.
+
+**Read the Article in .PDF format here:**  
+[**Helping Students to Think about Vocation and the “Ordinary Christian”**](/media/CrowZack.pdf)

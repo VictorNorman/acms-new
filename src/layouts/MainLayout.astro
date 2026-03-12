@@ -1,0 +1,31 @@
+---
+const { title } = Astro.props;
+import Header from "../components/Header.astro";
+import "../styles/global.css";
+
+const pageTitle = title ? `${title} | ACMS` : "ACMS";
+---
+
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>{pageTitle}</title>
+<meta name="theme-color" content="#ffffff" />
+<link rel="icon" type="image/png" sizes="32x32" href="/media/favicon-32x32-1.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="/media/favicon-16x16-1.png" />
+<link rel="apple-touch-icon" href="/media/apple-touch-icon.png" />
+<link rel="icon" type="image/png" sizes="192x192" href="/media/android-chrome-192x192-1.png" />
+<link rel="icon" type="image/png" sizes="512x512" href="/media/android-chrome-512x512-1.png" />
+</head>
+
+<body>
+
+<Header />
+
+<main>
+<slot />
+</main>
+
+</body>
+</html>

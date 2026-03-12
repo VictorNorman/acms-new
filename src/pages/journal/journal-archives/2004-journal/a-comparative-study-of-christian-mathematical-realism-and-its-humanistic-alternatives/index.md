@@ -1,0 +1,12 @@
+---
+title: "A Comparative Study of Christian Mathematical Realism and its Humanistic Alternatives"
+layout: ../../../../../layouts/MainLayout.astro
+---
+
+**Paul Zwier** (1983).
+
+**Abstract**  
+This paper addresses the growing popularity of views of mathematics that see it primarily as a social entity and that reject Platonism. It contrasts two Christian realist philosophies – those of Alvin Plantinga and Vernon Poythress – with the secular perspective of Philip Davis and Reuben Hersch. It affirms the insight of Davis and Hersch that mathematics is indeed a social entity. However, it argues that belief in God enables a fuller understanding of mathematics – one that accounts for the apparent transcendence of mathematics and its power to explain concepts in the physical world.
+
+**Read the Article in .PDF format here:**  
+[A Comparative Study of Christian Mathematical Realism and its Humanistic Alternatives](/media/Zwier83.pdf)

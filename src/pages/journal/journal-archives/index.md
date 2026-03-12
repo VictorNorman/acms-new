@@ -1,0 +1,34 @@
+---
+title: "Journal Archives"
+layout: ../../../layouts/MainLayout.astro
+---
+
+The ACMS journal was edited by James Bradley (Professor of Mathematics, Calvin College) from 2004 to 2016. The ACMS continues to keep the journals on this page as a resource for its members. Starting with the 2017 ACMS conference, the ACMS will offer refereed conference proceedings.
+
+[Letter from the Editor](/home2/letter-from-the-founding-editor/)
+
+The criteria for journal publication were:
+
+*   Appropriateness of content to the objectives of the journal.
+*   Clarity of presentation. Submissions should conform to accepted professional standards.
+*   Consistency with the theological perspectives of the journal.
+*   All submissions were reviewed by two referees, chosen by the editor, before acceptance for publication.
+
+* * *
+
+#### [Searchable Archive of Journals, hosted in Taylor University’s Pillars database](https://pillars.taylor.edu/acms/)
+
+#### Single-File PDF versions:
+
+*   [**2024 Issue**](/media/journal-and-proceedings-2025.pdf) 
+*   [**2022 Issue**](/media/journal-and-proceedings-2023.pdf) 
+*   [**2019 Issue**](/media/proceedings-2019.pdf) 
+*   [**2017 Issue**](/media/ACMS-2017-Proceedings.pdf) 
+*   [**2014-2015 Issue**](/home2/2014-2015-journal/)
+*   [**2012-2013 Issue**](/home2/2012-2013-journal/)
+*   [**2010-2011 Issue**](/home2/2010-2011-journal/)
+*   [**2008-2009 Issue**](/home2/2008-2009-journal/)
+*   [**2007 Issue**](/home2/2007-journal/)
+*   [**2006 Issue**](/home2/2006-journal/)
+*   [**2005 Issue**](/home2/2005-journal/)
+*   [**2004 Inaugural Issue**](/home2/2004-journal/)

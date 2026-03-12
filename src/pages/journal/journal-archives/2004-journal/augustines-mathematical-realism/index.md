@@ -1,0 +1,12 @@
+---
+title: "Augustine&#8217;s Mathematical Realism"
+layout: ../../../../../layouts/MainLayout.astro
+---
+
+**Paul Zwier** (1989)
+
+**Abstract**  
+This paper begins by outlining an argument advanced against mathematical realism by Philip Kitcher. It then sketches the life and work of the great Christian philosopher and theologian, Augustine of Hippo. It discusses Augustine’s view that there exist eternal ideas in the mind of God that God used as templates in his creation of material objects. Among these are ideas about numbers and other mathematical objects. It also discusses Augustine’s understanding of how human beings have access to such ideas. It concludes with a discussion of some possible objections to Augustine’s perspective.
+
+**Read the Article in .PDF format here:**  
+[Augustine’s Mathematical Realism](/media/Zwier-89.pdf)

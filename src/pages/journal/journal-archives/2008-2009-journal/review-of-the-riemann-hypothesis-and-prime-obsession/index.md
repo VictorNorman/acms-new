@@ -1,0 +1,12 @@
+---
+title: "Review of The Riemann Hypothesis and Prime Obsession"
+layout: ../../../../../layouts/MainLayout.astro
+---
+
+**Karl-Dieter Crisman**, Gordon College
+
+**Abstract**  
+There have been a lot of books out recently about some of the greatest unsolved problems in mathematics. This article reviews two of the most interesting of the current crop, both about the Riemann Hypothesis. John Derbyshire’ Prime Obsession is an excellent historical and mathematical cornucopia, though at times at too high a level for its intended audience; while Karl Sabbagh’s The Riemann Hypothesis is also good and tells more of the stories of contemporary mathematicians, it sometimes falls to unwarranted stereotypes or missing the main thrust of things. Both books are worth looking at, for general knowledge, pedagogical use (though in different contexts depending on the book), and both treat issues of the convergence of philosophy, faith, and mathematics within the story of this great unsolved problem in mathematics.
+
+**Read the Article in .PDF format here:**  
+[**Review of The Riemann Hypothesis and Prime Obsession**](/media/Crisman.pdf)

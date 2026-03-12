@@ -1,0 +1,12 @@
+---
+title: "A Christian Analysis of Gabriel&#8217;s &#8220;Mob Software&#8221;"
+layout: ../../../../../layouts/MainLayout.astro
+---
+
+**Thomas vanDrunen**, Wheaton College (2010).
+
+**Abstract**  
+A talk given by Richard Gabriel in 2000 highlighted how various spheres of thought- architecture, biology, economics, poetry-can influence our understanding of software and its development. Accordingly, Christians who participate in the software community need to be aware of how ideas influence software production. For example, the Open Source Software (or Free Software) movement claims moral and philosophical grounds for its model of software development, distribution, and compensation. In his talk, Richard Gabriel proposed “Mob Software”, a model for software development which he claims will enable software developers to work more effectively, make computing more accessible to the masses, and encourage more creative use of computing. This paper demonstrates how this proposal is rooted in basic assumptions about the laws of nature and human society and explores to what extent Christians can participate in such a model of software development.
+
+**Read the Article in .PDF format here:**  
+[**A Christian Analysis of Gabriel’s “Mob Software”**](/media/VanDrunen2010.pdf)

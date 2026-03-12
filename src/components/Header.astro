@@ -1,0 +1,131 @@
+---
+const navItems = [
+	{ label: "HOME", href: "/" },
+	{ label: "ABOUT", href: "/about/" },
+	{ label: "MEMBERSHIP", href: "/membership/" },
+	{ label: "COMPUTER SCIENCE", href: "/computer-science/" },
+	{ label: "CONFERENCES", href: "/conferences/" },
+	{ label: "JOURNAL", href: "/journal/" },
+	{ label: "JOBS", href: "/jobs/" },
+	{ label: "RESOURCES", href: "/resources/" },
+	{ label: "CONTACT US", href: "/contact-us/" }
+];
+
+const currentPath = Astro.url.pathname.replace(/\/$/, "") || "/";
+---
+
+<header class="site-header">
+	<div class="site-header-inner">
+		<a class="site-brand" href="/" aria-label="ACMS Home">
+			<img src="/media/android-chrome-512x512-1.png" alt="ACMS" width="24" height="24" loading="eager" decoding="async" />
+			<span>ACMS</span>
+		</a>
+		<nav aria-label="Main Navigation" class="site-nav">
+			{navItems.map((item) => {
+				const hrefPath = item.href.replace(/\/$/, "") || "/";
+				const isActive = currentPath === hrefPath;
+
+				return (
+					<a href={item.href} class={isActive ? "active" : ""}>
+						{item.label}
+					</a>
+				);
+			})}
+		</nav>
+	</div>
+</header>
+
+<style>
+	.site-header {
+		border-bottom: 1px solid #dedede;
+		background: #ffffff;
+		position: sticky;
+		top: 0;
+		z-index: 30;
+		box-shadow: 0 1px 6px rgba(0, 0, 0, 0.06);
+	}
+
+	.site-header-inner {
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 0.7rem 1rem;
+		display: flex;
+		align-items: center;
+		gap: 1.25rem;
+	}
+
+	.site-brand {
+		text-decoration: none;
+		color: #2b2b2b;
+		font-weight: 700;
+		letter-spacing: 0.08em;
+		font-size: 0.78rem;
+		line-height: 1;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		display: inline-flex;
+		align-items: center;
+		gap: 0.42rem;
+	}
+
+	.site-brand img {
+		width: 1.15rem;
+		height: 1.15rem;
+		object-fit: cover;
+		border-radius: 3px;
+	}
+
+	.site-nav {
+		display: flex;
+		align-items: center;
+		gap: 0.9rem;
+		margin-left: auto;
+		overflow-x: auto;
+		white-space: nowrap;
+		scrollbar-width: none;
+	}
+
+	.site-nav::-webkit-scrollbar {
+		display: none;
+	}
+
+	.site-nav a {
+		text-decoration: none;
+		color: #555555;
+		font-size: 0.72rem;
+		letter-spacing: 0.08em;
+		font-weight: 600;
+		line-height: 1;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		padding: 0.2rem 0;
+		border-bottom: 1px solid transparent;
+	}
+
+	.site-nav a:hover {
+		color: #e91e63;
+	}
+
+	.site-nav a.active {
+		color: #e91e63;
+		border-bottom-color: #e91e63;
+	}
+
+	@media (max-width: 900px) {
+		.site-header-inner {
+			gap: 0.85rem;
+			padding: 0.65rem 0.75rem;
+		}
+
+		.site-brand {
+			gap: 0.35rem;
+		}
+
+		.site-brand img {
+			width: 1rem;
+			height: 1rem;
+		}
+
+		.site-nav {
+			gap: 0.75rem;
+		}
+	}
+</style>

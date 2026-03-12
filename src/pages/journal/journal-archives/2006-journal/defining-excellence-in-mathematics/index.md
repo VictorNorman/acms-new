@@ -1,0 +1,12 @@
+---
+title: "Defining Excellence in Mathematics"
+layout: ../../../../../layouts/MainLayout.astro
+---
+
+**Jonathan Zderad**, Northwestern College
+
+**Abstract**  
+The purpose of this essay is to identify standards by which mathematicians, teachers, and students can identify and encourage excellence in mathematics. First, certain standards of mathematics are argued to be almost universally accepted, including beauty, practicality, connectedness, rigor, and depth. Second, two additional standards of mathematics, love and truth, will be described for which the Christian mathematician may further critique mathematical research and pedagogy. Ultimately, the discussion of excellence in mathematics from a Christian perspective will be advanced.
+
+**Read the Article in .PDF format here:**  
+[Defining Excellence in Mathematics](/media/Zderad06.pdf)

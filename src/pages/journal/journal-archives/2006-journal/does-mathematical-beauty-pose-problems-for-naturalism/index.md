@@ -1,0 +1,12 @@
+---
+title: "Does Mathematical Beauty Pose Problems for Naturalism?"
+layout: ../../../../../layouts/MainLayout.astro
+---
+
+**Russell W. Howell**, Westmont College
+
+**Abstract**  
+This essay takes up a question posed by the physicist Eugene Wigner in 1960, who was amazed at the success of mathematics in predicting the physical world. What accounts for this success? Wigner ultimately dubbed it a “miracle,” and R. C. Hamming, after an attempt to fill in some gaps left by Wigner, declared mathematics to be “unreasonably effective.” This paper looks at some evolutionary accounts to explain cognition, and expands some ideas of Mark Steiner. Specifically, it explores the role of aesthetics in theory formation and suggests that theism may well offer a better explanation of mathematical success than naturalism.
+
+**Read the Article in .PDF format here:**  
+[Does Mathematical Beauty Pose Problems for Naturalism?](/media/Howell.pdf)
