@@ -1,0 +1,95 @@
+---
+import homeHeroGalleryScriptUrl from "../scripts/homeHeroGallery.ts?url";
+---
+
+<section class="hero-gallery" aria-label="ACMS highlights">
+  <div class="splide" data-home-gallery>
+    <div class="splide__track">
+      <ul class="splide__list">
+        <li class="splide__slide">
+          <img src="/media/conference-photo-1.jpg" alt="ACMS conference attendees gathered for a group photo" loading="eager" decoding="async" />
+        </li>
+        <li class="splide__slide">
+          <img src="/media/acms-2015-past-board.jpg" alt="ACMS past board members" loading="lazy" decoding="async" />
+        </li>
+        <li class="splide__slide">
+          <img src="/media/acms-2015-conference.jpg" alt="ACMS 2015 conference" loading="lazy" decoding="async" />
+        </li>
+        <li class="splide__slide">
+          <img src="/media/ACMS2013_Photo2.jpg" alt="ACMS 2013 conference photo" loading="lazy" decoding="async" />
+        </li>
+        <li class="splide__slide">
+          <img src="/media/Edwin-Ding-4I7A3491-Smaller-File.jpg" alt="Edwin Ding speaking at an ACMS event" loading="lazy" decoding="async" />
+        </li>
+        <li class="splide__slide">
+          <img src="/media/dordt-group-photo-e1719420979227.jpg" alt="Dordt ACMS group photo" loading="lazy" decoding="async" />
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<script type="module" src={homeHeroGalleryScriptUrl}></script>
+
+<style>
+  .hero-gallery {
+    margin: 0 0 1.25rem;
+    background: #ffffff;
+  }
+
+  .hero-gallery :global(.splide__slide) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 0;
+  }
+
+  .hero-gallery .splide__slide img {
+    width: auto;
+    max-width: min(100%, 880px);
+    max-height: 430px;
+    object-fit: contain;
+    display: block;
+    border-radius: 0;
+    border: 0;
+  }
+
+  :global(.splide__arrow) {
+    background: rgba(255, 255, 255, 0.92);
+    border: 1px solid #cfcfcf;
+    width: 2rem;
+    height: 2rem;
+    opacity: 0.95;
+  }
+
+  :global(.splide__arrow svg) {
+    fill: #111827;
+    width: 0.9rem;
+    height: 0.9rem;
+  }
+
+  :global(.splide__pagination) {
+    bottom: 0.55rem;
+  }
+
+  :global(.splide__pagination__page) {
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+
+  :global(.splide__pagination__page.is-active) {
+    background: #e91e63;
+  }
+
+  @media (max-width: 700px) {
+    .hero-gallery .splide__slide img {
+      max-width: 100%;
+      max-height: 280px;
+    }
+
+    :global(.splide__arrow) {
+      width: 1.8rem;
+      height: 1.8rem;
+    }
+  }
+</style>

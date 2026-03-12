@@ -52,3 +52,10 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+.wpedon-container .wpedon-select,
+.wpedon-container .wpedon-input {
+  width: 170px;
+  min-width: 170px;
+  max-width: 170px;
+}

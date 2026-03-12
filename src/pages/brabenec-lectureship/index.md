@@ -1,15 +1,13 @@
 ---
-import MainLayout from "../../layouts/MainLayout.astro";
+title: 'Brabenec Lectureship'
+layout: ../../layouts/MainLayout.astro
 ---
 
-<MainLayout title="Brabenec Lectureship">
-
-Brabenec Lectureship
-====================
+# Brabenec Lectureship
 
 To support conversations in faith and the mathematical sciences at institutions that might not otherwise have the funds to bring in speakers.
 
-![](/media/Karl-horizontal-768x432.png)
+![](/media/Karl-horizontal.png)
 
 Karl-Dieter Crisman, Brabanec Lecturer, 2025-26
 
@@ -17,57 +15,41 @@ Karl-Dieter Crisman is Professor of Mathematics and Computer Science at Gordon C
 
 On campus he coordinates both math and general colloquium series, and serves as campus organist. Outside of Gordon, he has served in several editing roles, has taught several times for the African Institute for Mathematical Sciences, and is currently Vice Chair of the local Mathematical Association of America Section. He was awarded the 2024 Northeastern Section Award for Distinguished College or University Teaching.
 
-Past Lecturers
---------------
+## Past Lecturers
 
-Francis Su: 2024-25
--------------------
+## Francis Su: 2024-25
 
 Benediktsson-Karwa Professor of Mathematics
 
 Harvey Mudd College
 
-Francis Edward Su is the Benediktsson-Karwa Professor of Mathematics at Harvey Mudd College and a former president of the Mathematical Association of America. He received his Ph.D. from Harvard University. His research is in geometric combinatorics and applications to the social sciences and he has co-authored numerous papers with undergraduates. He also has a passion for teaching and popularizing mathematics. From the Mathematical Association of America, he received the 2013 Haimo Award for distinguished teaching and the 2018 Halmos-Ford Award for his writing. His work has been featured in Quanta Magazine, Wired, and The New York Times. His book Mathematics for Human Flourishing (Yale University Press, 2020) won the 2021 Euler Book Prize and has been translated into 8 languages. It is an inclusive vision of what math is, who it’s for, and why anyone should learn it.
+Francis Edward Su is the Benediktsson-Karwa Professor of Mathematics at Harvey Mudd College and a former president of the Mathematical Association of America. He received his Ph.D. from Harvard University. His research is in geometric combinatorics and applications to the social sciences and he has co-authored numerous papers with undergraduates. He also has a passion for teaching and popularizing mathematics. From the Mathematical Association of America, he received the 2013 Haimo Award for distinguished teaching and the 2018 Halmos-Ford Award for his writing. His work has been featured in Quanta Magazine, Wired, and The New York Times. His book Mathematics for Human Flourishing (Yale University Press, 2020) won the 2021 Euler Book Prize and has been translated into 8 languages. It is an inclusive vision of what math is, who it's for, and why anyone should learn it.
 
 ![](/media/su-lake-louise-tight-square.jpeg)
 
-![](/media/Derek-Schuurman-presenting-768x832.jpg)
+![](/media/Derek-Schuurman-presenting.jpg)
 
 ### Derek Schuurman: 2023-24
 
-Many thanks to Derek Schuurman for serving as the second ACMS Brabenec Lecturer. 
+Many thanks to Derek Schuurman for serving as the second ACMS Brabenec Lecturer.
 
-
-Replace this with info about Derek’s lecture topic, where he spoke, etc.
+Replace this with info about Derek's lecture topic, where he spoke, etc.
 
 ### Russ Howell: 2022-23
 
-Many thanks to Russ Howell for serving as the inaugural ACMS Brabenec Lecturer. Russ gave talks at Huntington, Taylor, Indiana Wesleyan, and Lee Universities.
+Many thanks to Russ Howell for serving as the inaugural ACMS Brabenec Lecturer. Russ gave talks at Huntington, Taylor, Indiana Wesleyan, and Lee Universities.
 
-Russ spoke on ‘**Is Faith Required for Mathematics? Is Mathematics Required for Faith?’**.
+Russ spoke on '**Is Faith Required for Mathematics? Is Mathematics Required for Faith?**'.
 
-Watch [this recording](https://www.youtube.com/watch?v=zeXQ9xCc7Ww) of Russ’s presentation at Huntington University.
+Watch [this recording](https://www.youtube.com/watch?v=zeXQ9xCc7Ww) of Russ's presentation at Huntington University.
 
 Russ completed a PhD in mathematics at The Ohio State University and an MSc in computer systems engineering at the University of Edinburgh. He loves thinking contextually about mathematics and is co-editor and contributor to **Mathematics in a Postmodern Age: A Christian Perspective (Eerdmans)** and **Mathematics Through the Eyes of Faith (HarperOne)**. His co-authored text in complex analysis is now open-source, and available in pdf and html versions at complexanalysis.org. A piano player, he also enjoys tennis and ocean kayaking.
 
-**
+![](/media/howell-office.jpg)
 
-![](/media/howell-office-768x768.jpg)
+## About Bob Brabenec
 
-
-
-
-
-
-
-**
-
-**
-
-About Bob Brabenec
-------------------
-
-Dr. Robert Brabenec began teaching mathematics at Wheaton College in June of 1964, and after a two year tour of active duty as an Army captain in missile intelligence, he returned to Wheaton in 1967 to become the chair of the newly formed Department of Mathematics. Over the years, he has developed a special interest in the history and foundations of mathematics, integrating these ideas into most courses that he teaches. In 1977, he began the organization that is now called the Association of Christians in the Mathematical Sciences. This organization of about 300 members sponsors a major conference every two years and supports other activities to help Christian mathematicians and computer scientists see connections between their academic discipline and their Christian faith. [Visit the ACMS website](http://www.acmsonline.org)
+Dr. Robert Brabenec began teaching mathematics at Wheaton College in June of 1964, and after a two year tour of active duty as an Army captain in missile intelligence, he returned to Wheaton in 1967 to become the chair of the newly formed Department of Mathematics. Over the years, he has developed a special interest in the history and foundations of mathematics, integrating these ideas into most courses that he teaches. In 1977, he began the organization that is now called the Association of Christians in the Mathematical Sciences. This organization of about 300 members sponsors a major conference every two years and supports other activities to help Christian mathematicians and computer scientists see connections between their academic discipline and their Christian faith. [Visit the ACMS website](http://www.acmsonline.org)
 
 Dr. Brabenec is the author of two books, _Introduction to Real Analysis_, published by PWS-Kent in 1990, and _Resources for the Study of Real Analysis_, published by the Mathematical Association of America in 2005. He has written several articles and given many talks on topics dealing with calculus and analysis, as well as mathematical history and pedagogy. He spent his first six month sabbatical in 1988 at the Universities of London and Cambridge and a second sabbatical at the University of Virginia in 1995. Two additional sabbaticals were spent in Cambridge, England in 2002 and 2006. In the fall of 2009, he spent another sabbatical traveling to fifteen Christian colleges, where he presented over fifty talks on topics of mathematical history and foundational topics, and how they connect to faith issues. Dr. Brabenec and his wife have three children and eight grandchildren. They enjoyed travel, general history and biographies, and visiting museums and historical sites during their forty-six years of marriage until her death in 2007. He attends and is active at Immanuel Presbyterian Church in Warrenville. He is involved with students, serving as faculty advisor to the International Justice Mission student chapter and the Wheaton Cares group, and as a faculty mentor to the track and cross country teams.
 
@@ -75,53 +57,20 @@ Dr. Brabenec is the author of two books, _Introduction to Real Analysis_, publis
 
 About the ACMS Brabenec Lectureship
 
---------------------------------------
+---
 
-Expectations
-============
+# Expectations
 
-The Brabenec Lecturer will give one talk in the fall term and one talk in the winter/spring term with a focus on the integration of faith in the mathematical sciences. At least one of the talks will be scheduled in person at a hosting institution, the second may be virtual. 
+The Brabenec Lecturer will give one talk in the fall term and one talk in the winter/spring term with a focus on the integration of faith in the mathematical sciences. At least one of the talks will be scheduled in person at a hosting institution, the second may be virtual.
 
-The lecturer will be open to giving additional talks (either in person or virtual), by request, as their schedule allows. 
+The lecturer will be open to giving additional talks (either in person or virtual), by request, as their schedule allows.
 
 If the lecturer is visiting another institution, the lecturer can be open to the option of providing a supplementary technical talk.
 
-Funding
-=======
+# Funding
 
 The ACMS Board has set aside an annual award of up to $2,000.
 
 Of that amount, $200 will serve as an honorarium with the remainder for expenses including travel.
 
 ACMS is now a recognized charitable organization and members are encouraged to make tax-deductible donations. In doing so, a member is welcome to earmark their donation for the Brabenec Lectureship fund.
-
-<style is:global>
-.wpedon-container .wpedon-select,
-.wpedon-container .wpedon-input {
-	width: 170px;
-	min-width: 170px;
-	max-width: 170px;
-}
-</style>
-
-![](/media/pixel.gif)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-**
-
-</MainLayout>
