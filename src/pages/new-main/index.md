@@ -21,7 +21,7 @@ layout: ../../layouts/MainLayout.astro
 
 ## **Dues Payment**
 
-Returning members are invited to pay their dues online. Please go to the [Update Membership](/home2/online-membership-payment/) page to pay online. New members should complete the membership form (available [here](/media/Join2016.pdf)) and submit membership dues by check.
+Returning members are invited to pay their dues online. Please go to the [Update Membership](/membership/online-membership-payment/) page to pay online. New members should complete the membership form (available [here](/media/Join2016.pdf)) and submit membership dues by check.
 
 **2023 Joint Math Meetings Reception** – ACMS will once again be hosting a reception at JMM. The reception will be from 6-7:30 PM on Thursday, January 5th at the Marriott Copley Place, Salon G . Karl-Dieter Crisman (Gordon College) will be our guest speaker and his talk will begin at 6:30 PM. I have included an abstract at the end of this email. At the conclusion of his talk, we will break out into small groups for dinner and discussion at various local restaurants. Please contact ACMS Vice President Kristin Camenga (camenga\[at\]Juniata\[dot\]edu) with any questions.
 

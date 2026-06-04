@@ -1,0 +1,34 @@
+---
+import MainLayout from "../layouts/MainLayout.astro";
+---
+
+<MainLayout title="Page Not Found">
+	<div class="not-found">
+		<h1>Page Not Found</h1>
+		<p>Sorry, the page you were looking for doesn't exist or may have moved.</p>
+		<p>
+			Try one of these pages:
+		</p>
+		<ul>
+			<li><a href="/">Home</a></li>
+			<li><a href="/conferences/">Conferences</a></li>
+			<li><a href="/journal/">Journal</a></li>
+			<li><a href="/journal/journal-archives/">Journal Archives</a></li>
+			<li><a href="/membership/">Membership</a></li>
+			<li><a href="/jobs/">Jobs</a></li>
+			<li><a href="/contact-us/">Contact Us</a></li>
+		</ul>
+	</div>
+</MainLayout>
+
+<style>
+	.not-found {
+		max-width: 600px;
+		padding: 3rem 0 2rem;
+	}
+
+	.not-found h1 {
+		font-size: 2rem;
+		margin-bottom: 1rem;
+	}
+</style>

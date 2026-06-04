@@ -5,11 +5,11 @@ layout: ../../../../layouts/MainLayout.astro
 
 ### Articles
 
-[**The Heavens and the Scriptures in the Eyes of Johannes Kepler**](/home2/the-heavens-and-the-scriptures-in-the-eyes-of-johannes-kepler/)  
+[**The Heavens and the Scriptures in the Eyes of Johannes Kepler**](/the-heavens-and-the-scriptures-in-the-eyes-of-johannes-kepler/)  
 Dale L. McIntyre, Grove City College  
 January 2009
 
-[**Rules and Insights: Connecting the Mathematical and Linguistic Abilities of C.S. Lewis**](/home2/rules-and-insights-connecting-the-mathematical-and-linguistic-abilities-of-c-s-lewis/)  
+[**Rules and Insights: Connecting the Mathematical and Linguistic Abilities of C.S. Lewis**](/rules-and-insights-connecting-the-mathematical-and-linguistic-abilities-of-c-s-lewis/)  
 Kim Regnier Jongerius, Northwestern College, IA  
 August 2009
 
@@ -19,7 +19,7 @@ August 2009
 
 This page presents materials designed to assist instructors in the integration of faith and learning in their classrooms. Permission is granted for unlimited copying for educational purposes.
 
-[**Helping Students to Think about Vocation and the “Ordinary Christian”**](/home2/helping-students-to-think-about-vocation-and-the-ordinary-christian/)  
+[**Helping Students to Think about Vocation and the “Ordinary Christian”**](/helping-students-to-think-about-vocation-and-the-ordinary-christian/)  
 Greg Crow and Maria Zack, Point Loma Nazarene University  
 January 2009
 
@@ -27,7 +27,7 @@ January 2009
 
 ### Book Reviews
 
-[**Review of The Riemann Hypothesis and Prime Obsession**](/home2/review-of-the-riemann-hypothesis-and-prime-obsession/)  
+[**Review of The Riemann Hypothesis and Prime Obsession**](/review-of-the-riemann-hypothesis-and-prime-obsession/)  
 Karl-Dieter Crisman, Gordon College  
 July 2009
 

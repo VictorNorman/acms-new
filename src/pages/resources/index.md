@@ -11,7 +11,7 @@ As the “Purposes” indicate, exploration and communication about the relation
 
 ### Recent Member Publications
 
-The [member book publications](/home2/member-publications/) page offers a list of publications by members of the ACMS. If you would like to place an item on this list, please contact the webmaster.
+The [member book publications](/member-publications/) page offers a list of publications by members of the ACMS. If you would like to place an item on this list, please contact the webmaster.
 
 * * *
 

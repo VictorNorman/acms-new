@@ -5,11 +5,11 @@ layout: ../../../../layouts/MainLayout.astro
 
 ### Articles
 
-[**A Christian Analysis of Gabriel’s “Mob Software”**](/home2/a-christian-analysis-of-gabriels-mob-software/)  
+[**A Christian Analysis of Gabriel’s “Mob Software”**](/a-christian-analysis-of-gabriels-mob-software/)  
 Thomas VanDrunen, Wheaton College  
 August 2010
 
-[**A Vision for ACMS**](/home2/a-vision-for-acms/)  
+[**A Vision for ACMS**](/a-vision-for-acms/)  
 James Bradley, Calvin College, emeritus  
 November 2010
 
@@ -17,15 +17,15 @@ November 2010
 
 ### Educational Materials
 
-[**Discussing Vocation as a Part of a Senior Capstone Class**](/home2/discussing-vocation-as-a-part-of-a-senior-capstone-class/)  
+[**Discussing Vocation as a Part of a Senior Capstone Class**](/discussing-vocation-as-a-part-of-a-senior-capstone-class/)  
 Maria Zack, Point Loma Nazarene University  
 November 2010
 
-[**Connecting Mathematics Students to Philosophy and Faith**](/home2/connecting-mathematics-students-to-philosophy-and-faith/)  
+[**Connecting Mathematics Students to Philosophy and Faith**](/connecting-mathematics-students-to-philosophy-and-faith/)  
 Nathan Moyer, Whitworth University  
 November 2011
 
-[**Math History Study Abroad Program: Learning Math History in a Cultural Context**](/home2/math-history-study-abroad-program-learning-math-history-in-a-cultural-context/)  
+[**Math History Study Abroad Program: Learning Math History in a Cultural Context**](/math-history-study-abroad-program-learning-math-history-in-a-cultural-context/)  
 Donna Pierce, Whitworth University  
 November 2011
 

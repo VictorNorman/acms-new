@@ -9,7 +9,7 @@ Individuals wishing to join the ACMS should first verify that they are in agreem
 
 **Application form** – The ACMS offers its members the opportunity to [sign up online](/new-member-registration/).
 
-**Renewing membership** -To renew your membership and keep your dues up to date, please go to the [update page](/home2/online-membership-payment/).
+**Renewing membership** -To renew your membership and keep your dues up to date, please go to the [update page](/membership/online-membership-payment/).
 
 ### Benefits of Membership
 
@@ -20,10 +20,4 @@ Individuals wishing to join the ACMS should first verify that they are in agreem
 
 ### Members: Check your dues status
 
-To check the status of your dues, enter your email address below. If you are "in the system", an email will be sent to you with information on what year you have paid your dues through.
-
-Email address
-
-captcha
-
-5 × 3 \= ?
+To check the status of your dues, email the [Executive Secretary](/about/officers/) with your email address. If you are in the system, you will receive information on what year you have paid through.

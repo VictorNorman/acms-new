@@ -1,13 +1,21 @@
 ---
 const { title, frontmatter } = Astro.props;
 import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
 import "../styles/global.css";
 
 const resolvedTitle = title ?? frontmatter?.title;
 const pageTitle = resolvedTitle ? `${resolvedTitle} | ACMS` : "ACMS";
+
+// Show the banner on all pages except the home page and pages with no title
+const isHome = Astro.url.pathname === "/";
+const showBanner = !isHome && !!resolvedTitle;
+
+// Strip leading sort-order prefixes like "00 " that came from the WordPress migration
+const bannerTitle = resolvedTitle?.replace(/^\d+\s+/, "") ?? "";
 ---
 
-<html>
+<html lang="en">
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -24,9 +32,54 @@ const pageTitle = resolvedTitle ? `${resolvedTitle} | ACMS` : "ACMS";
 
 <Header />
 
+{showBanner && (
+  <div class="page-banner">
+    <div class="page-banner-inner">
+      <h1 class="page-banner-title">{bannerTitle}</h1>
+    </div>
+  </div>
+)}
+
 <main>
 <slot />
 </main>
 
+<Footer />
+
 </body>
 </html>
+
+<style>
+  .page-banner {
+    background: steelblue;
+    min-height: 130px;
+    display: flex;
+    align-items: center;
+  }
+
+  .page-banner-inner {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    width: 100%;
+  }
+
+  .page-banner-title {
+    color: #ffffff;
+    font-family: "Roboto Slab", "Georgia", serif;
+    font-size: 2.4rem;
+    font-weight: 400;
+    margin: 0;
+    line-height: 1.2;
+  }
+
+  @media (max-width: 768px) {
+    .page-banner-title {
+      font-size: 1.6rem;
+    }
+
+    .page-banner {
+      min-height: 90px;
+    }
+  }
+</style>

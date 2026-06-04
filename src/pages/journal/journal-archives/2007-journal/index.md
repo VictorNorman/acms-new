@@ -5,15 +5,15 @@ layout: ../../../../layouts/MainLayout.astro
 
 ### Articles
 
-[**An Augustinian Perspective on the Philosophy of Mathematics**](/home2/an-augustinian-perspective-on-the-philosophy-of-mathematics/)  
+[**An Augustinian Perspective on the Philosophy of Mathematics**](/an-augustinian-perspective-on-the-philosophy-of-mathematics/)  
 James Bradley, Calvin College  
 November 2007
 
-[**Motivating Students in their Study of Mathematics**](/home2/motivating-students-in-their-study-of-mathematics/)  
+[**Motivating Students in their Study of Mathematics**](/motivating-students-in-their-study-of-mathematics/)  
 Johan H. de Klerk, North-West University (Potchefstroom Campus), South Africa  
 November 2007
 
-[**Forming a Christian View of Computer Technology**](/home2/forming-a-christian-view-of-computer-technology/)  
+[**Forming a Christian View of Computer Technology**](/forming-a-christian-view-of-computer-technology/)  
 Derek C. Schuurman, Redeemer University College  
 December 2007
 

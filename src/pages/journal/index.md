@@ -6,7 +6,7 @@ layout: ../../layouts/MainLayout.astro
 ### About the Proceedings
 
 The objective of the on-line proceedings is to provide a venue for the publication and distribution of materials relating Christian belief to mathematical and computing sciences.  
-In 2016 the Journal of the ACMS changed from being an online journal to refereed conference proceedings. To view the past journal articles please see the [archives](/home2/journal-archives/).
+In 2016 the Journal of the ACMS changed from being an online journal to refereed conference proceedings. To view the past journal articles please see the [archives](/journal/journal-archives/).
 
 We are looking forward to this transition, and encourage ACMS members to submit an abstract to the upcoming ACMS conference!
 

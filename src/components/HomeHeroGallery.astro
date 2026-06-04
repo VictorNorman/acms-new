@@ -1,95 +1,173 @@
 ---
-import homeHeroGalleryScriptUrl from "../scripts/homeHeroGallery.ts?url";
+const images = [
+  { src: "/media/conference-photo-2.jpg",                    alt: "ACMS conference attendees gathered for a group photo" },
+  { src: "/media/acms-2015-past-board.jpg",                  alt: "ACMS past board members" },
+  { src: "/media/acms-2015-conference.jpg",                  alt: "ACMS 2015 conference" },
+  { src: "/media/ACMS2013_Photo2.jpg",                       alt: "ACMS 2013 conference photo" },
+  { src: "/media/Edwin-Ding-4I7A3491-Smaller-File.jpg",      alt: "Edwin Ding speaking at an ACMS event" },
+  { src: "/media/dordt-group-photo-e1719420979227.jpg",       alt: "Dordt ACMS group photo" },
+];
 ---
 
-<section class="hero-gallery" aria-label="ACMS highlights">
-  <div class="splide" data-home-gallery>
-    <div class="splide__track">
-      <ul class="splide__list">
-        <li class="splide__slide">
-          <img src="/media/conference-photo-1.jpg" alt="ACMS conference attendees gathered for a group photo" loading="eager" decoding="async" />
+<!-- Widest image is acms-2015-past-board.jpg at 4256×1813; all slides use that aspect ratio -->
+<section class="gallery" aria-label="ACMS photo gallery">
+  <div class="gallery-viewport">
+    <ul class="gallery-track" role="list">
+      {images.map((img, i) => (
+        <li class="gallery-slide" aria-hidden={i !== 0 ? "true" : undefined}>
+          <img src={img.src} alt={img.alt} loading={i === 0 ? "eager" : "lazy"} decoding="async" />
         </li>
-        <li class="splide__slide">
-          <img src="/media/acms-2015-past-board.jpg" alt="ACMS past board members" loading="lazy" decoding="async" />
-        </li>
-        <li class="splide__slide">
-          <img src="/media/acms-2015-conference.jpg" alt="ACMS 2015 conference" loading="lazy" decoding="async" />
-        </li>
-        <li class="splide__slide">
-          <img src="/media/ACMS2013_Photo2.jpg" alt="ACMS 2013 conference photo" loading="lazy" decoding="async" />
-        </li>
-        <li class="splide__slide">
-          <img src="/media/Edwin-Ding-4I7A3491-Smaller-File.jpg" alt="Edwin Ding speaking at an ACMS event" loading="lazy" decoding="async" />
-        </li>
-        <li class="splide__slide">
-          <img src="/media/dordt-group-photo-e1719420979227.jpg" alt="Dordt ACMS group photo" loading="lazy" decoding="async" />
-        </li>
-      </ul>
-    </div>
+      ))}
+    </ul>
+
+    <button class="gallery-btn gallery-prev" aria-label="Previous photo">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" width="18" height="18">
+        <polyline points="15 18 9 12 15 6"></polyline>
+      </svg>
+    </button>
+    <button class="gallery-btn gallery-next" aria-label="Next photo">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" width="18" height="18">
+        <polyline points="9 18 15 12 9 6"></polyline>
+      </svg>
+    </button>
+  </div>
+
+  <div class="gallery-dots" role="tablist" aria-label="Gallery slides">
+    {images.map((_, i) => (
+      <button class:list={["gallery-dot", { active: i === 0 }]} role="tab" aria-label={`Slide ${i + 1}`} data-index={i}></button>
+    ))}
   </div>
 </section>
 
-<script type="module" src={homeHeroGalleryScriptUrl}></script>
+<script>
+  document.querySelectorAll<HTMLElement>(".gallery").forEach((gallery) => {
+    const track = gallery.querySelector<HTMLElement>(".gallery-track")!;
+    const slides = gallery.querySelectorAll<HTMLElement>(".gallery-slide");
+    const dots = gallery.querySelectorAll<HTMLElement>(".gallery-dot");
+    const total = slides.length;
+    let current = 0;
+    let timer: ReturnType<typeof setInterval>;
+
+    function goTo(n: number) {
+      slides[current].setAttribute("aria-hidden", "true");
+      dots[current].classList.remove("active");
+
+      current = ((n % total) + total) % total;
+
+      track.style.transform = `translateX(-${current * 100}%)`;
+      slides[current].removeAttribute("aria-hidden");
+      dots[current].classList.add("active");
+    }
+
+    function startTimer() {
+      timer = setInterval(() => goTo(current + 1), 5000);
+    }
+    function resetTimer() {
+      clearInterval(timer);
+      startTimer();
+    }
+
+    gallery.querySelector(".gallery-next")!.addEventListener("click", () => { goTo(current + 1); resetTimer(); });
+    gallery.querySelector(".gallery-prev")!.addEventListener("click", () => { goTo(current - 1); resetTimer(); });
+    dots.forEach((dot) => {
+      dot.addEventListener("click", () => { goTo(Number(dot.dataset.index)); resetTimer(); });
+    });
+
+    gallery.addEventListener("mouseenter", () => clearInterval(timer));
+    gallery.addEventListener("mouseleave", startTimer);
+
+    startTimer();
+  });
+</script>
 
 <style>
-  .hero-gallery {
-    margin: 0 0 1.25rem;
+  .gallery {
+    margin: 0 0 1.5rem;
+    user-select: none;
+  }
+
+  /* Viewport: locked to widest image's aspect ratio (4256 × 1813 ≈ 2.35:1).
+     max-height keeps it from getting too tall on very wide screens. */
+  .gallery-viewport {
+    position: relative;
+    aspect-ratio: 4256 / 1813;
+    max-height: 430px;
+    overflow: hidden;
     background: #ffffff;
   }
 
-  .hero-gallery :global(.splide__slide) {
+  /* Track slides side-by-side; JS shifts via translateX */
+  .gallery-track {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0.5rem 0;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    transition: transform 0.5s ease-in-out;
+    will-change: transform;
   }
 
-  .hero-gallery .splide__slide img {
-    width: auto;
-    max-width: min(100%, 880px);
-    max-height: 430px;
+  .gallery-slide {
+    flex: 0 0 100%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+  }
+
+  .gallery-slide img {
+    width: 100%;
+    height: 100%;
     object-fit: contain;
     display: block;
-    border-radius: 0;
-    border: 0;
   }
 
-  :global(.splide__arrow) {
-    background: rgba(255, 255, 255, 0.92);
-    border: 1px solid #cfcfcf;
-    width: 2rem;
-    height: 2rem;
-    opacity: 0.95;
+  /* Prev / next arrow buttons */
+  .gallery-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.88);
+    border: 1px solid #d1d5db;
+    border-radius: 50%;
+    width: 2.25rem;
+    height: 2.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #111827;
+    z-index: 2;
+    transition: background 0.15s;
+  }
+  .gallery-btn:hover { background: #ffffff; }
+  .gallery-prev { left: 0.75rem; }
+  .gallery-next { right: 0.75rem; }
+
+  /* Dot pagination */
+  .gallery-dots {
+    display: flex;
+    justify-content: center;
+    gap: 0.4rem;
+    padding: 0.5rem 0 0;
   }
 
-  :global(.splide__arrow svg) {
-    fill: #111827;
-    width: 0.9rem;
-    height: 0.9rem;
+  .gallery-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    background: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    padding: 0;
+    transition: background 0.2s, transform 0.2s;
   }
-
-  :global(.splide__pagination) {
-    bottom: 0.55rem;
-  }
-
-  :global(.splide__pagination__page) {
-    background: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.2);
-  }
-
-  :global(.splide__pagination__page.is-active) {
+  .gallery-dot.active {
     background: #e91e63;
-  }
-
-  @media (max-width: 700px) {
-    .hero-gallery .splide__slide img {
-      max-width: 100%;
-      max-height: 280px;
-    }
-
-    :global(.splide__arrow) {
-      width: 1.8rem;
-      height: 1.8rem;
-    }
+    border-color: #e91e63;
+    transform: scale(1.35);
   }
 </style>

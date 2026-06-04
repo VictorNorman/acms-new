@@ -155,7 +155,7 @@ Wheaton College, Wheaton, IL
 
 Messiah College, Grantham, PA
 
-> <span”>Main speaker: **Thomas Banchoff**, Brown University  
+> Main speaker: **Thomas Banchoff**, Brown University  
 > [Table of contents](/media/7th-ACMS-Conference-Proceedings-1989.pdf) for the conference proceedings
 
 **1987**

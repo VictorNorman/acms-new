@@ -7,7 +7,7 @@ layout: ../../../../layouts/MainLayout.astro
 
 #### **2003**
 
-[**Creationism – A Viable Philosophy of Mathematics**](/home2/creationism-a-viable-philosophy-of-mathematics/)  
+[**Creationism – A Viable Philosophy of Mathematics**](/creationism-a-viable-philosophy-of-mathematics/)  
 Jonathan Zderad
 
 [**Mathematics and the Love of God: An Introduction to the Thought of Simone Weil**](/journal/journal-archives/2004-journal/mathematics-and-the-love-of-god-an-introduction-to-the-thought-of-simone-weil/)  
@@ -46,12 +46,12 @@ Johan deKlerk
 [**Mathematics and Values: Can Philosophy Guide Projects?**](/journal/journal-archives/2004-journal/mathematics-and-values-can-philosophy-guide-projects/)  
 Michael Veatch
 
-[**Mathematics at Chartres Cathedral**](/home2/mathematics-at-chartres-cathedral/)  
+[**Mathematics at Chartres Cathedral**](/mathematics-at-chartres-cathedral/)  
 Richard Stout
 
 #### **1995**
 
-[**Mathematics from the Viewpoint of Science in Context**](/home2/mathematics-from-the-viewpoint-of-science-in-context/)  
+[**Mathematics from the Viewpoint of Science in Context**](/mathematics-from-the-viewpoint-of-science-in-context/)  
 Johan deKlerk
 
 [**Mathematical and Theological Beliefs: A Cognitive Science Perspective**](/journal/journal-archives/2004-journal/mathematical-and-theological-beliefs-a-cognitive-science-perspective/)  

@@ -1,0 +1,77 @@
+---
+const year = new Date().getFullYear();
+---
+
+<footer class="site-footer">
+	<div class="site-footer-inner">
+		<nav class="footer-nav" aria-label="Footer Navigation">
+			<a href="/">Home</a>
+			<a href="/about/beliefs/">Beliefs</a>
+			<a href="/membership/">Membership</a>
+			<a href="/conferences/">Conferences</a>
+			<a href="/journal/">Journal</a>
+			<a href="/jobs/">Jobs</a>
+			<a href="/contact-us/">Contact Us</a>
+		</nav>
+		<p class="footer-legal">
+			Where relevant, materials on this site are &copy; {year} Association of Christians in the Mathematical Sciences.
+			All rights reserved. Opinions expressed on these pages are those of the authors and are not necessarily those of the ACMS.
+		</p>
+		<p class="footer-webmaster">
+			Webmaster: <a href="mailto:acmsonlinewebmaster@gmail.com">acmsonlinewebmaster@gmail.com</a>
+		</p>
+	</div>
+</footer>
+
+<style>
+	.site-footer {
+		border-top: 1px solid #dedede;
+		background: #fafafa;
+		margin-top: 3rem;
+	}
+
+	.site-footer-inner {
+		max-width: 960px;
+		margin: 0 auto;
+		padding: 1.5rem 1rem 1.25rem;
+		text-align: center;
+	}
+
+	.footer-nav {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 0.25rem 1rem;
+		margin-bottom: 1rem;
+	}
+
+	.footer-nav a {
+		color: #555555;
+		text-decoration: none;
+		font-size: 0.75rem;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		letter-spacing: 0.04em;
+	}
+
+	.footer-nav a:hover {
+		color: #e91e63;
+	}
+
+	.footer-legal,
+	.footer-webmaster {
+		font-size: 0.72rem;
+		color: #888888;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		margin: 0 0 0.35rem;
+		line-height: 1.5;
+	}
+
+	.footer-webmaster a {
+		color: #888888;
+		text-decoration: none;
+	}
+
+	.footer-webmaster a:hover {
+		color: #e91e63;
+	}
+</style>

@@ -48,8 +48,7 @@ const isItemActive = (item) => {
 <header class="site-header">
 	<div class="site-header-inner">
 		<a class="site-brand" href="/" aria-label="ACMS Home">
-			<img src="/media/android-chrome-512x512-1.png" alt="ACMS" width="24" height="24" loading="eager" decoding="async" />
-			<span>ACMS</span>
+			<img src="/media/android-chrome-512x512-1.png" alt="ACMS" width="512" height="512" loading="eager" decoding="async" />
 		</a>
 		<nav aria-label="Main Navigation" class="site-nav">
 			<ul class="site-nav-list">
@@ -98,7 +97,7 @@ const isItemActive = (item) => {
 	.site-header-inner {
 		max-width: 1200px;
 		margin: 0 auto;
-		padding: 0.7rem 1rem;
+		padding: 0.5rem 1rem;
 		display: flex;
 		align-items: center;
 		gap: 1.25rem;
@@ -106,22 +105,15 @@ const isItemActive = (item) => {
 
 	.site-brand {
 		text-decoration: none;
-		color: #2b2b2b;
-		font-weight: 700;
-		letter-spacing: 0.08em;
-		font-size: 0.78rem;
-		line-height: 1;
-		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 		display: inline-flex;
 		align-items: center;
-		gap: 0.42rem;
+		flex-shrink: 0;
 	}
 
 	.site-brand img {
-		width: 1.15rem;
-		height: 1.15rem;
-		object-fit: cover;
-		border-radius: 3px;
+		width: 2.75rem;
+		height: 2.75rem;
+		object-fit: contain;
 	}
 
 	.site-nav {
