@@ -94,16 +94,9 @@ Five pre-conference workshops will be held concurrently from Tuesday afternoon t
 > 
 > **Timeframe**: Tuesday dinner opportunity, Wednesday morning and afternoon
 
-## **Registration Links**
+## **Registration**
 
-The following links work for both ACMS and CES members:
-
-Faculty and Professionals: [click here to register](https://commerce.cashnet.com/calvinCUS?itemcode=CUS-CS5)
-
-Retirees/students (conference fees are 1/2 price): [click here to register](https://commerce.cashnet.com/calvinCUS?itemcode=CUS-CS5-B).
-
-**NOTE: registration costs go up 33% on April 1. Register before March 31 to receive the standard rates.**
-
+Registration for the 2026 ACMS/CES Conference is now closed.
 ## **Session Proposals**
 
 **ACMS Members**: (The date for submission of abstracts has passed.)
