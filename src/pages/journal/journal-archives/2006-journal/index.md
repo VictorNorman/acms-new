@@ -5,32 +5,32 @@ layout: ../../../../layouts/MainLayout.astro
 
 ### Articles
 
-[**A Christian Constructivist? The Impact of Worldview on Learning Theories and the Mathematics Education Research Community**](/journal/journal-archives/2006-journal/a-christian-constructivist-the-impact-of-worldview-on-learning-theories-and-the-mathematics-education-research-community/)  
+[**A Christian Constructivist? The Impact of Worldview on Learning Theories and the Mathematics Education Research Community**](/journal/journal-archives/2006-journal/a-christian-constructivist-the-impact-of-worldview-on-learning-theories-and-the-mathematics-education-research-community/) — [access in Pillars](https://pillars.taylor.edu/acmsjournal-2006/10)  
 Jeffrey Barrett, Illinois State University  
 Dave Klanderman, Trinity Christian College  
 January 2006
 
-[**Object Information Repository in a Christian Theory of Technology**](/journal/journal-archives/2006-journal/object-information-repository-in-a-christian-theory-of-technology/)  
+[**Object Information Repository in a Christian Theory of Technology**](/journal/journal-archives/2006-journal/object-information-repository-in-a-christian-theory-of-technology/) — [access in Pillars](https://pillars.taylor.edu/acmsjournal-2006/7)  
 Longy O. Anyanwu, Trinity Christian College  
 January 2006
 
-[**Defining Excellence in Mathematics**](/journal/journal-archives/2006-journal/defining-excellence-in-mathematics/)  
+[**Defining Excellence in Mathematics**](/journal/journal-archives/2006-journal/defining-excellence-in-mathematics/) — [access in Pillars](https://pillars.taylor.edu/acmsjournal-2006/6)  
 Jonathan Zderad, Northwestern College  
 March 2006
 
-[**Asserting CS != Can’t Socialize: Building Community in a Computer Science Program**](/journal/journal-archives/2006-journal/asserting-cs-cant-socialize-building-community-in-a-computer-science-program/)  
+[**Asserting CS != Can’t Socialize: Building Community in a Computer Science Program**](/journal/journal-archives/2006-journal/asserting-cs-cant-socialize-building-community-in-a-computer-science-program/) — [access in Pillars](https://pillars.taylor.edu/acmsjournal-2006/9)  
 Kim P. Kihlstrom, Westmont College  
 April 2006
 
-[**Does Mathematical Beauty Pose Problems for Naturalism?**](/journal/journal-archives/2006-journal/does-mathematical-beauty-pose-problems-for-naturalism/)  
+[**Does Mathematical Beauty Pose Problems for Naturalism?**](/journal/journal-archives/2006-journal/does-mathematical-beauty-pose-problems-for-naturalism/) — [access in Pillars](https://pillars.taylor.edu/acmsjournal-2006/5)  
 Russell W. Howell, Westmont College  
 August 2006
 
-[**Call for a Non-Euclidean, Post-Cantorian Theology**](/journal/journal-archives/2006-journal/call-for-a-non-euclidean-post-cantorian-theology/)  
+[**Call for a Non-Euclidean, Post-Cantorian Theology**](/journal/journal-archives/2006-journal/call-for-a-non-euclidean-post-cantorian-theology/) — [access in Pillars](https://pillars.taylor.edu/acmsjournal-2006/4)  
 Saburo Matsumoto, The Master’s College  
 August 2006
 
-[**Mathematics: Always Important, Never Enough. A Christian Perspective on Mathematics and Mathematics Education**](/journal/journal-archives/2006-journal/mathematics-always-important-never-enough-a-christian-perspective-on-mathematics-and-mathematics-education/)  
+[**Mathematics: Always Important, Never Enough. A Christian Perspective on Mathematics and Mathematics Education**](/journal/journal-archives/2006-journal/mathematics-always-important-never-enough-a-christian-perspective-on-mathematics-and-mathematics-education/) — [access in Pillars](https://pillars.taylor.edu/acmsjournal-2006/3)  
 Calvin Jongsma, Dordt College  
 October 2006
 
@@ -40,14 +40,14 @@ October 2006
 
 This page presents materials designed to assist instructors in the integration of faith and learning in their classrooms. Permission is granted for unlimited copying for educational purposes.
 
-[**Blaise Pascal-Mathematician, Mystic, Disciple**](/journal/journal-archives/2006-journal/blaise-pascal-mathematician-mystic-disciple/)  
+[**Blaise Pascal-Mathematician, Mystic, Disciple**](/journal/journal-archives/2006-journal/blaise-pascal-mathematician-mystic-disciple/) — [access in Pillars](https://pillars.taylor.edu/acmsjournal-2006/8)  
 Tim Rogalsky, Canadian Mennonite University  
 June 2006
 
-[**The God-Fearing Life of Leonhard Euler**](/journal/journal-archives/2006-journal/the-god-fearing-life-of-leonhard-euler/)  
+[**The God-Fearing Life of Leonhard Euler**](/journal/journal-archives/2006-journal/the-god-fearing-life-of-leonhard-euler/) — [access in Pillars](https://pillars.taylor.edu/acmsjournal-2006/2)  
 Dale L. McIntyre, Grove City College  
 June 2006
 
-[**Teaching the History of Mathematics Using Architecture and Art**](/journal/journal-archives/2006-journal/teaching-the-history-of-mathematics-using-architecture-and-art/)  
+[**Teaching the History of Mathematics Using Architecture and Art**](/journal/journal-archives/2006-journal/teaching-the-history-of-mathematics-using-architecture-and-art/) — [access in Pillars](https://pillars.taylor.edu/acmsjournal-2006/1)  
 Maria Zack, Point Loma Nazarene University  
 August 2006

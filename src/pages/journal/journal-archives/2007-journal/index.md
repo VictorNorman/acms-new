@@ -5,15 +5,15 @@ layout: ../../../../layouts/MainLayout.astro
 
 ### Articles
 
-[**An Augustinian Perspective on the Philosophy of Mathematics**](/journal/journal-archives/2007-journal/an-augustinian-perspective-on-the-philosophy-of-mathematics/)  
+[**An Augustinian Perspective on the Philosophy of Mathematics**](/journal/journal-archives/2007-journal/an-augustinian-perspective-on-the-philosophy-of-mathematics/) — [access in Pillars](https://pillars.taylor.edu/acmsjournal-2007/5)  
 James Bradley, Calvin College  
 November 2007
 
-[**Motivating Students in their Study of Mathematics**](/journal/journal-archives/2007-journal/motivating-students-in-their-study-of-mathematics/)  
+[**Motivating Students in their Study of Mathematics**](/journal/journal-archives/2007-journal/motivating-students-in-their-study-of-mathematics/) — [access in Pillars](https://pillars.taylor.edu/acmsjournal-2007/4)  
 Johan H. de Klerk, North-West University (Potchefstroom Campus), South Africa  
 November 2007
 
-[**Forming a Christian View of Computer Technology**](/journal/journal-archives/2007-journal/forming-a-christian-view-of-computer-technology/)  
+[**Forming a Christian View of Computer Technology**](/journal/journal-archives/2007-journal/forming-a-christian-view-of-computer-technology/) — [access in Pillars](https://pillars.taylor.edu/acmsjournal-2007/3)  
 Derek C. Schuurman, Redeemer University College  
 December 2007
 
