@@ -18,6 +18,7 @@
   "description": "",
   "dependencies": {
     "@astrojs/mdx": "^5.0.0",
+    "@emailjs/browser": "^4.4.1",
     "@splidejs/splide": "^4.1.4",
     "astro": "^6.0.3",
     "axios": "^1.13.6",

@@ -7,7 +7,7 @@ layout: ../../../layouts/MainLayout.astro
 
 We are an affiliation of Christians who trust in the good news of God’s saving work accomplished through Jesus Christ, as faithfully proclaimed by the Old and New Testaments, and as affirmed by the Nicene and Apostles’ creeds.
 
-Those who wish to join our organization may read more at [Join the ACMS](http://www.acmsonline.org/membership/).
+Those who wish to join our organization may read more at [Join the ACMS](/membership/).
 
 ---
 

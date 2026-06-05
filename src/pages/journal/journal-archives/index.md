@@ -5,7 +5,7 @@ layout: ../../../layouts/MainLayout.astro
 
 The ACMS journal was edited by James Bradley (Professor of Mathematics, Calvin College) from 2004 to 2016. The ACMS continues to keep the journals on this page as a resource for its members. Starting with the 2017 ACMS conference, the ACMS will offer refereed conference proceedings.
 
-[Letter from the Editor](/letter-from-the-founding-editor/)
+[Letter from the Editor](/journal/journal-archives/letter-from-the-founding-editor/)
 
 The criteria for journal publication were:
 

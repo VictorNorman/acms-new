@@ -13,7 +13,7 @@ layout: ../../layouts/MainLayout.astro
 
 The Association of Christians in the Mathematical Sciences and the Dordt University Department of Mathematics and Statistics will be hosting the 24th ACMS Biennial Conference on May 29 – June 1, 2024 with optional preconference workshops on May 28 – 29. (See Dave Klanderman’s [blog post](https://christianscholars.com/how-would-jesus-do-math/) in _Christian Scholar’s Review_ for his perspective on ACMS conferences.)
 
-Registration for the Dordt conference is closed.
+Registration for the Dordt conference is closed. The [registration form](/2024-acms-conference-dordt-university/2024-conference-registration/) is archived for reference.
 
 The main conference will begin with dinner on May 29 and will conclude with lunch on June 1. The conference will feature invited and contributed talks on history, pedagogy, faith integration, and current research in disciplines including computer science, mathematics, and statistics.  Participants will enjoy fellowship over meals, worship and prayer, and a choice of excursion to either the [Eros Data Center (USGS)](https://www.usgs.gov/centers/eros) or the [SiouxNami Waterpark](https://siouxnami.com). There will be a formal banquet on Friday evening followed by an informal social time in the [Gaming Guild Bunker](https://www.youtube.com/watch?v=sJRoNViNwFQ).
 

@@ -5,11 +5,11 @@ layout: ../../../../layouts/MainLayout.astro
 
 ### Articles
 
-[**How Will You Practice Virtue Without Skill?**](/preparing-students-to-be-virtuous-computer-programmers/): Preparing Students to be Virtuous Computer Programmers.  
+[**How Will You Practice Virtue Without Skill?**](/journal/journal-archives/2014-2015-journal/preparing-students-to-be-virtuous-computer-programmers/): Preparing Students to be Virtuous Computer Programmers.  
 Victor Norman, Calvin College  
 August 2015
 
-[**Mathematics, Faith and Politics during the Italian Risorgimento**](/mathematics-faith-and-politics-during-the-italian-risorgimento/): A Three Part Series Describing Mathematicians’ Responses to Societal Changes in 19th Century Italy.  
+[**Mathematics, Faith and Politics during the Italian Risorgimento**](/journal/journal-archives/2014-2015-journal/mathematics-faith-and-politics-during-the-italian-risorgimento/): A Three Part Series Describing Mathematicians’ Responses to Societal Changes in 19th Century Italy.  
 Donna Pierce, Whitworth University  
 September 2015
 

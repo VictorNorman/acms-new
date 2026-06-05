@@ -7,7 +7,7 @@ layout: ../../layouts/MainLayout.astro
 
 Individuals wishing to join the ACMS should first verify that they are in agreement with our organization's [statement of belief](/about/beliefs/) . ACMS membership is $30 a year ($10 for students and retired members),
 
-**Application form** – The ACMS offers its members the opportunity to [sign up online](/new-member-registration/).
+**Application form** – The ACMS offers its members the opportunity to [sign up online](/membership/new-member-registration/).
 
 **Renewing membership** -To renew your membership and keep your dues up to date, please go to the [update page](/membership/online-membership-payment/).
 

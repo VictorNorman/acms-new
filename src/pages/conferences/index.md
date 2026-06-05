@@ -22,7 +22,9 @@ The complete listing of [Conference Proceedings table of contents](/media/ACMS-C
 
 Dordt University (May 29 – June 1)
 
-> **Lydia Manikonda**, RPI; _**Joel Amidon**_, Ole Miss; _**Judith Canner**_, CSU Monterey Bay; **Jason Douma**, U. of Sioux Falls.
+> **Lydia Manikonda**, RPI; _**Joel Amidon**_, Ole Miss; _**Judith Canner**_, CSU Monterey Bay; **Jason Douma**, U. of Sioux Falls.  
+> [Journal and Proceedings of the 2024 ACMS Conference](/media/journal-and-proceedings-2025.pdf)  
+> [Conference information](/2024-acms-conference-dordt-university/) from _before_ the conference, as archived.
 
 **2022**
 
@@ -30,7 +32,8 @@ Azusa Pacific University, Azusa, CA  (June 1 – June 4)
 
 > **_Matt DeLong_**, Marian University; _**Jason Thacker**_, chair of research in technology ethics at The Ethics and Religious Liberty Commission; _**Talithia Williams**_, Harvey Mudd College.
 > 
-> [Journal and Proceedings of the 2022 ACMS Conference](/media/journal-and-proceedings-2023.pdf)
+> [Journal and Proceedings of the 2022 ACMS Conference](/media/journal-and-proceedings-2023.pdf)  
+> [Conference information](/2022-acms-conference-azusa-pacific-university/) from _before_ the conference, as archived.
 
 **2019**
 
@@ -38,7 +41,7 @@ Indiana Wesleyan University, Marion, IN  (May 29th – June 1st)
 
 > Invited speakers: **Michael Alford,**  FBI, Cyber Division; **Ken Ono**, University of Virginia/Emory University; and **Joan L. Richards**, Brown University.  
 > [Proceedings of the 2019 ACMS Conference](/media/proceedings-2019.pdf)  
-> [Conference information](/conferences/2019-acms-conference/)  from _before_ the conference, as archived.
+> [Conference information](/2019-acms-conference/)  from _before_ the conference, as archived.
 
 **2017**
 

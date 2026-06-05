@@ -36,7 +36,7 @@ Editorial review:  The discipline of mathematics has not been spared the sweepi
 
 ### Bibliography
 
-[Bibliography of Christianity and Mathematics: 1910-1983](http://www.asa3.org/ASA/topics/Mathematics/1983Bibliography.html) – Created by Gene Chase and Calvin Jongsma, members of the ACMS, this bibliography is a sponsored activity of the ACMS. The bibliography is quite extensive, so you may wish to refer to the [index](http://www.acmsonline.org/beliefs/Outline%20of%20Topics,%20Bibliography%20of%20Christianity%20and%20Mathematics%201910-1983.htm) to this bibliography.
+[Bibliography of Christianity and Mathematics: 1910-1983](http://www.asa3.org/ASA/topics/Mathematics/1983Bibliography.html) – Created by Gene Chase and Calvin Jongsma, members of the ACMS, this bibliography is a sponsored activity of the ACMS. The bibliography is quite extensive, so you may wish to refer to the [index](/media/bibliography-index-1910-1983.htm) to this bibliography.
 
 * * *
 
