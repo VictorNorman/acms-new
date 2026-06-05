@@ -1,6 +1,6 @@
 ---
 title: "Common Call Speakers"
-layout: ../../layouts/MainLayout.astro
+layout: ../../../../layouts/MainLayout.astro
 ---
 
 Roger V Gonzalez came to faith in 1981 through the ministry of The Navigators at the University of Texas at El Paso (UTEP). During his undergraduate years, he was discipled for six years by the Navigator staff member, where he developed a strong doctrinal foundation in the Christian faith and the spiritual disciplines of walking with Christ. Over the past four decades, Roger and his wife, Yvette, have served in collegiate, community, and marriage ministries across the United States and internationally, supporting discipleship efforts and care initiatives in diverse cultural settings. Yvette is the Director of Crisis Care for The Navigators, and Roger is Associate Staff with the Care division, focusing on emotional and spiritual support for individuals and couples. Motivated by his faith, Roger founded LIMBS International, a nonprofit dedicated to helping restore mobility to amputees in underserved communities worldwide. Roger and Yvette have two adult children who live in Los Angeles and work in cinematography and sound design.

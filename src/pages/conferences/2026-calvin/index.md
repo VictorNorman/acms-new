@@ -90,7 +90,7 @@ Five pre-conference workshops will be held concurrently from Tuesday afternoon t
 > 
 > **Abstract:** This gathering is for Christian faculty and graduate students who desire to live out their faith in the secular academia. For many, this conference (organized through Faculty Commons) has been a life-changing event in perspective and vision. You’ll meet faculty, staff and graduate students who will encourage and challenge you. You’ll hear about resources and strategies that can help you be more effective in your life and service. You’ll be refreshed to be with other faculty and graduate students who share “A Common Call.” We also welcome spouses to attend.
 > 
-> For more information about the speakers, [click here](/common-call-speakers/).
+> For more information about the speakers, [click here](/conferences/2026-calvin/common-call-speakers/).
 > 
 > **Timeframe**: Tuesday dinner opportunity, Wednesday morning and afternoon
 
