@@ -1,6 +1,6 @@
 ---
 title: "2017 ACMS Conference &#8211; Charleston Southern University"
-layout: ../../layouts/MainLayout.astro
+layout: ../../../layouts/MainLayout.astro
 ---
 
 **Charleston Southern University, May 31 – June 3 2017**

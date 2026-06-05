@@ -1,6 +1,6 @@
 ---
 title: "2022 ACMS Conference &#8211; Azusa Pacific University"
-layout: ../../layouts/MainLayout.astro
+layout: ../../../layouts/MainLayout.astro
 ---
 
 ## ![](/media/APU-Logo-1-300x80.jpg)
@@ -9,7 +9,7 @@ layout: ../../layouts/MainLayout.astro
 ****June 1-4, 2022**  
 **Azusa Pacific University, Azusa, CA 91702**
 
-The Association of Christians in the Mathematical Sciences and Azusa Pacific University Department of Mathematics, Physics, and Statistics will be hosting the 23rd ACMS Biennial Conference on June 1-4, 2022 with optional preconference workshops on May 31 and June 1. Conference registration for this conference is now closed. The [registration form](/2022-acms-conference-azusa-pacific-university/2022-conference-registration/) is archived for reference.  (See Dave Klanderman’s [blog post](https://christianscholars.com/how-would-jesus-do-math/) in _Christian Scholar’s Review_ for his perspective on ACMS conferences.)
+The Association of Christians in the Mathematical Sciences and Azusa Pacific University Department of Mathematics, Physics, and Statistics will be hosting the 23rd ACMS Biennial Conference on June 1-4, 2022 with optional preconference workshops on May 31 and June 1. Conference registration for this conference is now closed. The [registration form](/conferences/2022-acms-conference-azusa-pacific-university/2022-conference-registration/) is archived for reference.  (See Dave Klanderman’s [blog post](https://christianscholars.com/how-would-jesus-do-math/) in _Christian Scholar’s Review_ for his perspective on ACMS conferences.)
 
 The main conference will begin with dinner on June 1 and will conclude with lunch on June 4. The conference will feature invited and contributed talks on history, pedagogy, faith integration, and current research in disciplines including computer science, mathematics, and statistics.  Participants will enjoy fellowship over meals, worship and prayer, and a choice of excursion to either the [Huntington Gardens](https://www.huntington.org/) or the [Norton Simon Museum](https://www.nortonsimon.org/) in Pasadena.  There will be a formal banquet on Friday evening.
 

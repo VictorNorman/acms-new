@@ -1,6 +1,6 @@
 ---
 title: "2026 ACMS Conference &#8211; Calvin University"
-layout: ../../layouts/MainLayout.astro
+layout: ../../../layouts/MainLayout.astro
 ---
 
 ![](/media/ACMS-Poster.png)

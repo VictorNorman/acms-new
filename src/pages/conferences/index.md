@@ -8,7 +8,7 @@ The ACMS sponsors a biennial conference, generally in late May.  A gathering at
 ### **Site of 2026 Conference**
 
 [Calvin University](https://www.calvin.edu), Grand Rapids, MI, has been chosen as the site for the 2026 ACMS Conference. The dates will be Wednesday, May 27 – Saturday, May 30, 2026, with pre-conference workshops on Tuesday, May 26 and Wednesday, May 27.  
-**[C](/2026-acms-conference-calvin/)[lick here for information and registration](/2026-acms-conference-calvin/)[.](/2026-acms-conference-calvin/)**
+**[C](/conferences/2026-acms-conference-calvin/)[lick here for information and registration](/conferences/2026-acms-conference-calvin/)[.](/conferences/2026-acms-conference-calvin/)**
 
 ### **Conference Proceedings**
 
@@ -24,7 +24,7 @@ Dordt University (May 29 – June 1)
 
 > **Lydia Manikonda**, RPI; _**Joel Amidon**_, Ole Miss; _**Judith Canner**_, CSU Monterey Bay; **Jason Douma**, U. of Sioux Falls.  
 > [Journal and Proceedings of the 2024 ACMS Conference](/media/journal-and-proceedings-2025.pdf)  
-> [Conference information](/2024-acms-conference-dordt-university/) from _before_ the conference, as archived.
+> [Conference information](/conferences/2024-acms-conference-dordt-university/) from _before_ the conference, as archived.
 
 **2022**
 
@@ -33,7 +33,7 @@ Azusa Pacific University, Azusa, CA  (June 1 – June 4)
 > **_Matt DeLong_**, Marian University; _**Jason Thacker**_, chair of research in technology ethics at The Ethics and Religious Liberty Commission; _**Talithia Williams**_, Harvey Mudd College.
 > 
 > [Journal and Proceedings of the 2022 ACMS Conference](/media/journal-and-proceedings-2023.pdf)  
-> [Conference information](/2022-acms-conference-azusa-pacific-university/) from _before_ the conference, as archived.
+> [Conference information](/conferences/2022-acms-conference-azusa-pacific-university/) from _before_ the conference, as archived.
 
 **2019**
 
@@ -41,7 +41,7 @@ Indiana Wesleyan University, Marion, IN  (May 29th – June 1st)
 
 > Invited speakers: **Michael Alford,**  FBI, Cyber Division; **Ken Ono**, University of Virginia/Emory University; and **Joan L. Richards**, Brown University.  
 > [Proceedings of the 2019 ACMS Conference](/media/proceedings-2019.pdf)  
-> [Conference information](/2019-acms-conference/)  from _before_ the conference, as archived.
+> [Conference information](/conferences/2019-acms-conference/)  from _before_ the conference, as archived.
 
 **2017**
 
@@ -49,7 +49,7 @@ Indiana Wesleyan University, Marion, IN  (May 29th – June 1st)
 
 > Invited speakers: **[Sloan Evans Despeaux](http://www.wcu.edu/learn/departments-schools-colleges/cas/casdepts/mathcsdept/mathematics-and-computer-science-faculty-and-staff/sloan-e.-despeaux.asp)**, Western Carolina University; **[Dominic Klyve](http://sites.google.com/site/profklyve/)**, Central Washington University; and **[Derek C. Schuurman](https://sites.calvin.edu/derek/)**.  
 > [Proceedings of the 2017 ACMS Conference](/media/ACMS-2017-Proceedings.pdf)  
-> [Conference information](/2017-acms-conference/) from _before_ the conference, as archived.
+> [Conference information](/conferences/2017-acms-conference/) from _before_ the conference, as archived.
 
 **2015**
 

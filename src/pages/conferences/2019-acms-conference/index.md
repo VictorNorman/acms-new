@@ -1,6 +1,6 @@
 ---
 title: "2019 ACMS Conference &#8211; Indiana Wesleyan University"
-layout: ../../layouts/MainLayout.astro
+layout: ../../../layouts/MainLayout.astro
 ---
 
 ## **22nd ACMS Biennial Conference**  
