@@ -168,11 +168,37 @@ const errorDiv    = document.getElementById("form-error")    as HTMLDivElement;
   yearsEl.addEventListener("change", updateTotal);
 
   // Math captcha
-  const a = Math.floor(Math.random() * 10) + 1;
-  const b = Math.floor(Math.random() * 10) + 1;
-  const captchaAnswer = a + b;
+  const pool = [
+    { q: "2³",          a: 8   },
+    { q: "3²",          a: 9   },
+    { q: "2⁵",          a: 32  },
+    { q: "4²",          a: 16  },
+    { q: "√9",          a: 3   },
+    { q: "√25",         a: 5   },
+    { q: "√49",         a: 7   },
+    { q: "√64",         a: 8   },
+    { q: "sin(90°)",    a: 1   },
+    { q: "cos(0°)",     a: 1   },
+    { q: "sin(0°)",     a: 0   },
+    { q: "cos(180°)",   a: -1  },
+    { q: "3!",          a: 6   },
+    { q: "4!",          a: 24  },
+    { q: "0!",          a: 1   },
+    { q: "log₂(8)",     a: 3   },
+    { q: "log₂(16)",    a: 4   },
+    { q: "log₁₀(1000)", a: 3   },
+    { q: "|−7|",        a: 7   },
+    { q: "|−15|",       a: 15  },
+    { q: "⌊π⌋",         a: 3   },
+    { q: "⌈e⌉",         a: 3   },
+    { q: "13 mod 5",    a: 3   },
+    { q: "17 mod 4",    a: 1   },
+    { q: "⌊√10⌋",       a: 3   },
+  ];
+  const pick = pool[Math.floor(Math.random() * pool.length)];
+  const captchaAnswer = pick.a;
   (document.getElementById("captcha-label") as HTMLLabelElement).textContent =
-    `What is ${a} + ${b}? *`;
+    `What is ${pick.q}? *`;
 
   form.addEventListener("submit", (e) => {
     e.preventDefault();
