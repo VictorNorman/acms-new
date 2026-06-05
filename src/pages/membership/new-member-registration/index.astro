@@ -383,6 +383,11 @@ const paypalLinks = {
         </label>
       </div>
 
+      <div class="field field--captcha">
+        <label for="captcha-answer" id="captcha-label">Verification <span class="req">*</span></label>
+        <input type="text" id="captcha-answer" name="captcha_answer" inputmode="numeric" autocomplete="off" required />
+      </div>
+
       <div id="form-error" class="msg msg--error" hidden></div>
 
       <button type="submit" id="submit-btn" class="btn-submit">Submit Registration</button>
@@ -440,6 +445,13 @@ const paypalLinks = {
     stateField.style.display = countryEl.value === "US" ? "" : "none";
   });
 
+  // Math captcha
+  const a = Math.floor(Math.random() * 10) + 1;
+  const b = Math.floor(Math.random() * 10) + 1;
+  const captchaAnswer = a + b;
+  (document.getElementById("captcha-label") as HTMLLabelElement).textContent =
+    `What is ${a} + ${b}? *`;
+
   form.addEventListener("submit", async (e) => {
     e.preventDefault();
 
@@ -448,6 +460,14 @@ const paypalLinks = {
     if (hp) return;
 
     errorDiv.hidden = true;
+
+    // Captcha check
+    const given = parseInt((document.getElementById("captcha-answer") as HTMLInputElement).value);
+    if (given !== captchaAnswer) {
+      errorDiv.textContent = "Incorrect answer to the verification question. Please try again.";
+      errorDiv.hidden = false;
+      return;
+    }
 
     if (!form.checkValidity()) {
       form.reportValidity();
@@ -626,6 +646,10 @@ const paypalLinks = {
   .checkbox-label input {
     margin-top: 0.2rem;
     flex-shrink: 0;
+  }
+
+  .field--captcha input {
+    max-width: 120px;
   }
 
   .msg {
