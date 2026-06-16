@@ -1,0 +1,164 @@
+---
+import MainLayout from "../../layouts/MainLayout.astro";
+---
+
+<MainLayout title="Membership">
+  <h3>Join the ACMS</h3>
+
+  <p>
+    Individuals wishing to join the ACMS should first verify that they are in agreement with our
+    organization's <a href="/about/beliefs/">statement of belief</a>. ACMS membership is $30 a year
+    ($10 for students and retired members),
+  </p>
+
+  <h3>Benefits of Membership</h3>
+
+  <ol>
+    <li>Reduced Registration fees at ACMS Conferences</li>
+    <li>ACMS Directory</li>
+    <li>Privilege to vote and hold office in the organization</li>
+    <li>Periodic Newsletters</li>
+  </ol>
+
+  <h3>Members: Check your dues status</h3>
+
+  <p>
+    To check the status of your dues, email the <a href="/about/officers/">Executive Secretary</a>
+    with your email address. If you are in the system, you will receive information on what year you
+    have paid through.
+  </p>
+
+  <hr id="renew" />
+
+  <h3>Start or Renew Your Membership</h3>
+
+  <p class="intro">
+    ACMS members who wish to pay dues for the current year, past years, or future years may
+    complete the form below. After submitting you will be directed to Stripe to complete payment.
+    Members wishing to pay by check instead may skip the payment below and mail payment to the
+    ACMS Executive Secretary.
+  </p>
+
+  <div class="field field--statement">
+    <p class="statement-heading">Membership Statement <span class="req">*</span></p>
+    <blockquote class="statement-text">
+      We are an affiliation of Christians who trust in the good news of
+      God's saving work accomplished through Jesus Christ, as faithfully
+      proclaimed by the Old and New Testaments, and as affirmed by the
+      Nicene and Apostles' creeds.
+    </blockquote>
+    <label class="checkbox-label">
+      <input type="checkbox" id="agree" name="agree" />
+      I agree to the membership statement
+    </label>
+  </div>
+
+  <div id="stripe-section">
+    <script is:inline async src="https://js.stripe.com/v3/buy-button.js"></script>
+
+    <stripe-buy-button
+      buy-button-id="buy_btn_1Tj0ZH2dNruWKJZeoFYUKT0C"
+      publishable-key="pk_live_51TifaM2dNruWKJZet2qLTWGOA8mAhuGVEhrdfALBJ0iM8psgTJ4aKtUO9svMfwy9qDpwkR4awJQ1URt2maIUS4Sn00sv9NtiDz"
+    ></stripe-buy-button>
+
+    <stripe-buy-button
+      buy-button-id="buy_btn_1Tj0vs2dNruWKJZeqLbcoLzw"
+      publishable-key="pk_live_51TifaM2dNruWKJZet2qLTWGOA8mAhuGVEhrdfALBJ0iM8psgTJ4aKtUO9svMfwy9qDpwkR4awJQ1URt2maIUS4Sn00sv9NtiDz"
+    ></stripe-buy-button>
+
+    <stripe-buy-button
+      buy-button-id="buy_btn_1Tj12g2dNruWKJZeR1IU1Lsf"
+      publishable-key="pk_live_51TifaM2dNruWKJZet2qLTWGOA8mAhuGVEhrdfALBJ0iM8psgTJ4aKtUO9svMfwy9qDpwkR4awJQ1URt2maIUS4Sn00sv9NtiDz"
+    ></stripe-buy-button>
+
+    <stripe-buy-button
+      buy-button-id="buy_btn_1Tj1522dNruWKJZePJzRCvjK"
+      publishable-key="pk_live_51TifaM2dNruWKJZet2qLTWGOA8mAhuGVEhrdfALBJ0iM8psgTJ4aKtUO9svMfwy9qDpwkR4awJQ1URt2maIUS4Sn00sv9NtiDz"
+    ></stripe-buy-button>
+
+    <stripe-buy-button
+      buy-button-id="buy_btn_1Tj17l2dNruWKJZeQokTtPpu"
+      publishable-key="pk_live_51TifaM2dNruWKJZet2qLTWGOA8mAhuGVEhrdfALBJ0iM8psgTJ4aKtUO9svMfwy9qDpwkR4awJQ1URt2maIUS4Sn00sv9NtiDz"
+    ></stripe-buy-button>
+  </div>
+</MainLayout>
+
+<script>
+  const agree = document.getElementById("agree") as HTMLInputElement;
+  const stripeSection = document.getElementById("stripe-section") as HTMLDivElement;
+
+  function sync() {
+    stripeSection.classList.toggle("is-enabled", agree.checked);
+  }
+  agree.addEventListener("change", sync);
+  sync();
+</script>
+
+<style>
+  .intro {
+    margin-bottom: 1.5rem;
+  }
+
+  .req { color: #c00; }
+
+  .field {
+    margin-bottom: 1.1rem;
+  }
+
+  .field label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+    font-size: 0.95rem;
+  }
+
+  .statement-heading {
+    font-weight: bold;
+    font-size: 0.95rem;
+    margin: 0 0 0.4rem;
+  }
+
+  .statement-text {
+    border-left: 3px solid #d1d5db;
+    margin: 0 0 0.6rem;
+    padding: 0.5rem 0.75rem;
+    color: #374151;
+    font-style: italic;
+    font-size: 0.95rem;
+  }
+
+  .checkbox-label {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+    font-weight: normal;
+    cursor: pointer;
+  }
+
+  .checkbox-label input {
+    margin-top: 0.2rem;
+    flex-shrink: 0;
+  }
+
+  #stripe-section {
+    position: relative;
+    opacity: 0.35;
+    transition: opacity 0.2s;
+    margin-top: 1rem;
+  }
+
+  #stripe-section.is-enabled {
+    opacity: 1;
+  }
+
+  #stripe-section::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    cursor: not-allowed;
+  }
+
+  #stripe-section.is-enabled::after {
+    display: none;
+  }
+</style>
