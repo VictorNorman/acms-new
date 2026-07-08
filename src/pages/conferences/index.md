@@ -9,8 +9,6 @@ The ACMS sponsors a biennial conference, generally in late May.  A gathering at
 
 Those interested in obtaining a print copy of any volume of the conference proceedings for their library or personal collection should contact the [ACMS Executive Secretary](/about/officers#exectutiveSecretary) for availability and price information.
 
-The complete listing of [Conference Proceedings table of contents](/media/ACMS-Conference-Proceedings-1977-2009.pdf) is also provided in a single document in order to simplify searches for a particular author or topic if you do not know the year of a given article.
-
 ### **Past Biennial Conferences**
 
 **2026**
