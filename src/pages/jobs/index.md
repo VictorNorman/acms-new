@@ -25,7 +25,6 @@ There is currently no charge for listing positions that may be of interest to ou
 - [Campbellsville University](https://campbellsville.wd1.myworkdayjobs.com/en-US/CU/job/Instructor-of-Mathematics_JR101129) (Harrodsburg, KY campus) – full-time Instructor of Mathematics faculty position, beginning August 2025 (posted 3/4/2025)
 - [Concordia University, Irvine](https://cui.applicantpro.com/jobs/3604441) – full-time faculty in mathematics, starting Fall 2025 (posted 3/4/2025).
 - [Corban University](https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=4d30e8ed-ba40-45a6-b96b-fda3ed12cc9b&ccId=19000101_000001&lang=en_US&selectedMenuKey=CareerCenter&jobId=517050) – full-time tenure-track Assistant Professor of mathematics (MA or MS required), starting Fall 2025. (posted 12/19/25)
-- [Mississippi College](https://www.mc.edu/offices/human-resources/employment) – tenure-track, Assistant or Associate professor of Mathematics, starting August 2025. (posted 12/19/25)
 - [Westmont College](https://www.westmont.edu/office-provost/open-positions) – full-time, tenure track, assistant professor of Mathematics, starting August 2025. (posted 12/19/25)
 - [Dordt University](https://ibmxjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/71/?utm_medium=jobshare) – full-time faculty, Mathematics, Statistics, or Data Science/Analysis, beginning summer 2025. (posted 11/1/24)
 - [Cedarville University](https://us242.dayforcehcm.com/CandidatePortal/en-US/cedarville/SITE/CANDIDATEPORTAL/Posting/View/429) – full-time tenure-track eligible Assistant/Associate Professor of Mathematics (posted 10/15/2024).
@@ -35,7 +34,7 @@ There is currently no charge for listing positions that may be of interest to ou
 
 #### Computer Science
 
-- [Belhaven University](https://www.belhaven.edu/pdfs/employment/program-chair-of-ai-and-assistant_associate-of-computer-science.pdf) — Program Chair of AI and Assistant/Associate Professor of Computer Science (posted 3/10/2026)
+- [Mississippi Christian University](https://www.mc.edu/offices/human-resources/employment?rID[32]=462) – Assistant/Associate Professor of Computer Science, starting fall 2026 or spring 2027 (posted 7/8/2026).
 - [Taylor University](https://www.schooljobs.com/careers/tayloredu/jobs/5135519/tenure-track-in-computer-science-and-engineering) — Tenure-track, beginning August 2026. (posted 12/6/2025)
 - [Messiah University](https://jobs.messiah.edu/postings/30580) — Full-time/term-tenure track, starting fall 2026 (posted 12/6/2025)
 - [Azusa Pacific University](https://jobs.silkroad.com/APU/FacultyJobs/jobs/4487) — Full-time cybersecurity faculty, starting August 2026 (posted 11/8/2025).
