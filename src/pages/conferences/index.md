@@ -5,11 +5,6 @@ layout: ../../layouts/MainLayout.astro
 
 The ACMS sponsors a biennial conference, generally in late May.  A gathering at the annual Joint Mathematics Meetings in January is also sponsored; that gathering has normally consisted of a dinner and a lecture. If ACMS members wish to host the ACMS biennial conference at their institution, please complete and forward to the president or the executive secretary the attached [Conference Site Survey](/media/Host_Questionnaire.docx).
 
-### **Site of 2026 Conference**
-
-[Calvin University](https://www.calvin.edu), Grand Rapids, MI, has been chosen as the site for the 2026 ACMS Conference. The dates will be Wednesday, May 27 – Saturday, May 30, 2026, with pre-conference workshops on Tuesday, May 26 and Wednesday, May 27.  
-**[C](/conferences/2026-calvin/)[lick here for information and registration](/conferences/2026-calvin/)[.](/conferences/2026-calvin/)**
-
 ### **Conference Proceedings**
 
 Those interested in obtaining a print copy of any volume of the conference proceedings for their library or personal collection should contact the [ACMS Executive Secretary](/about/officers#exectutiveSecretary) for availability and price information.
@@ -17,6 +12,13 @@ Those interested in obtaining a print copy of any volume of the conference proce
 The complete listing of [Conference Proceedings table of contents](/media/ACMS-Conference-Proceedings-1977-2009.pdf) is also provided in a single document in order to simplify searches for a particular author or topic if you do not know the year of a given article.
 
 ### **Past Biennial Conferences**
+
+**2026**
+
+[Calvin University](https://www.calvin.edu), (May 27 – May 30)
+
+> **Tai Danae Bradley**, The Master's University; **Randall Pruim**, Calvin University; **Matt Heun**, Calvin University; **Emily Wenger**, Duke University.  
+> [Conference information](/conferences/2026-calvin/) from _before_ the conference, as archived.
 
 **2024**
 

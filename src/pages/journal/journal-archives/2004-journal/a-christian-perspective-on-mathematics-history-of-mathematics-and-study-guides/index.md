@@ -1,5 +1,5 @@
 ---
-title: "A Christian Perspective on Mathematics &#8211; History of Mathematics and Study Guides"
+title: "A Christian Perspective on Mathematics – History of Mathematics and Study Guides"
 layout: ../../../../../layouts/MainLayout.astro
 ---
 

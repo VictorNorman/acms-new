@@ -1,5 +1,5 @@
 ---
-title: "2026 ACMS Conference &#8211; Calvin University"
+title: "2026 ACMS Conference – Calvin University"
 layout: ../../../layouts/MainLayout.astro
 ---
 

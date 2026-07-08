@@ -1,5 +1,5 @@
 ---
-title: "2017 ACMS Conference &#8211; Charleston Southern University"
+title: "2017 ACMS Conference – Charleston Southern University"
 layout: ../../../layouts/MainLayout.astro
 ---
 

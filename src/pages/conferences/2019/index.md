@@ -1,5 +1,5 @@
 ---
-title: "2019 ACMS Conference &#8211; Indiana Wesleyan University"
+title: "2019 ACMS Conference – Indiana Wesleyan University"
 layout: ../../../layouts/MainLayout.astro
 ---
 

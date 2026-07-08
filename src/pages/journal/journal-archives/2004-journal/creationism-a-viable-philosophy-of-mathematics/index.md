@@ -1,5 +1,5 @@
 ---
-title: "Creationism &#8211; A Viable Philosophy of Mathematics"
+title: "Creationism – A Viable Philosophy of Mathematics"
 layout: ../../../../../layouts/MainLayout.astro
 ---
 

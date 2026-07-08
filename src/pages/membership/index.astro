@@ -23,10 +23,17 @@ import MainLayout from "../../layouts/MainLayout.astro";
   <h3>Members: Check your dues status</h3>
 
   <p>
-    To check the status of your dues, email the <a href="/about/officers/">Executive Secretary</a>
-    with your email address. If you are in the system, you will receive information on what year you
-    have paid through.
-  </p>
+
+<p>
+  If you have already registered as a member and want to check your membership status,
+     <a href="https://billing.stripe.com/p/login/00w9AM4ky200gXB1GK3Je00">click here</a>.
+     You will need to provide the email address you are registered with. Once you do that, you
+     will receive an email with a link to your personal customer "portal" where you can view your
+     membership status. Information in the portal was transferred over from the old PayPal
+     system. Look for a field in the "metadata" that says "dues_paid_through".
+</p>
+<p> If you cannot find your membership email, please email <a href="mailto:acmsonlinewebmaster@gmail.com">acmsonlinewebmaster@gmail.com</a>.
+</p>
 
   <hr id="renew" />
 
@@ -38,6 +45,8 @@ import MainLayout from "../../layouts/MainLayout.astro";
     Members wishing to pay by check instead may skip the payment below and mail payment to the
     ACMS Executive Secretary.
   </p>
+
+
 
   <div class="field field--statement">
     <p class="statement-heading">Membership Statement <span class="req">*</span></p>
@@ -52,6 +61,8 @@ import MainLayout from "../../layouts/MainLayout.astro";
       I agree to the membership statement
     </label>
   </div>
+
+
 
   <div id="stripe-section">
 
@@ -82,9 +93,6 @@ import MainLayout from "../../layouts/MainLayout.astro";
       publishable-key="pk_live_51TifaM2dNruWKJZet2qLTWGOA8mAhuGVEhrdfALBJ0iM8psgTJ4aKtUO9svMfwy9qDpwkR4awJQ1URt2maIUS4Sn00sv9NtiDz"
     ></stripe-buy-button>
   </div>
-
-  If you have already registered as a member and want to check your membership status,
-     <a href="https://billing.stripe.com/p/login/00w9AM4ky200gXB1GK3Je00">Click here</a>.
 
 
 </MainLayout>

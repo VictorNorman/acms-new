@@ -1,5 +1,5 @@
 ---
-title: "2024 ACMS Conference &#8211; Dordt University"
+title: "2024 ACMS Conference – Dordt University"
 layout: ../../../layouts/MainLayout.astro
 ---
 

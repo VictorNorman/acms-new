@@ -1,5 +1,5 @@
 ---
-title: "2022 ACMS Conference &#8211; Azusa Pacific University"
+title: "2022 ACMS Conference – Azusa Pacific University"
 layout: ../../../layouts/MainLayout.astro
 ---
 
