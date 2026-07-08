@@ -78,6 +78,25 @@ main .org-card {
     gap: 1rem;
 }
 
+main .brabenec-bio {
+    margin: 1.5rem 0 2rem;
+}
+
+main .brabenec-bio h2 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+main .brabenec-bio p {
+    margin-bottom: 1rem;
+}
+
+main .brabenec-bio img {
+    display: block;
+    max-width: 360px;
+    margin: 1.25rem auto 0;
+}
+
 main .org-section {
     display: flex;
     flex-direction: column;
