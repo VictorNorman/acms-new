@@ -1,0 +1,217 @@
+\documentclass[table, svgnames, dvipsnames, letterpaper, 11pt]{report}
+
+\usepackage{amsmath, amsthm, latexsym, amssymb, graphicx, graphics, bold-extra, multirow,
+pdfpages, array, float, subcaption, bm, changepage, longtable, booktabs, algorithmic, wrapfig}
+
+\usepackage{xcolor, soul}
+
+\usepackage{mathrsfs}
+\usepackage{stmaryrd}
+
+\usepackage{titlesec}
+\titlespacing\section{0pt}{12pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\titlespacing\subsection{0pt}{12pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\titlespacing\subsubsection{0pt}{12pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+
+\usepackage{etoolbox} % provides \patchcmd
+\patchcmd{\endabstract}{\null}{}{}{}
+\patchcmd{\thebibliography}{\chapter*}{\section*}{}{}
+\makeatletter
+\patchcmd{\@tocline}{\hfill}{%
+  \leaders\hbox{$\m@th
+    \mkern \@dotsep mu\hbox{.}\mkern \@dotsep
+  mu$}\hfill}{}{}
+\makeatother
+
+\makeatletter
+\patchcmd{\l@section}{\hfil}{%
+  \leaders\hbox{$\m@th
+    \mkern \@dotsep mu\hbox{\color{blue}.}\mkern \@dotsep
+  mu$}\hfill}{}{}
+\makeatother
+
+\makeatletter
+\setlength{\@fptop}{0pt}
+\makeatother
+
+% Package for tweaking the table of contents (for the report document class)
+\usepackage{tocloft}
+\renewcommand{\cftchapdotsep}{\cftdotsep} % dotted chapter leaders
+%\cftpagenumberson{chapter} % show chapter page numbers, on by default
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{textcomp}
+
+% For dashed lines across a table row
+\usepackage{arydshln}
+
+\usepackage[sort&compress, square, numbers]{natbib}
+
+\usepackage[resetlabels]{multibib}
+
+% Eliminates the page break before the bibliography; ensures it is named References
+\renewcommand{\bibsection}{\section*{References}}
+
+% Packages for drawing graphics
+\usepackage{tikz} 
+\usetikzlibrary{positioning}
+
+% Simplifies margin settings
+\usepackage{geometry}
+\geometry{margin=1in, bottom=0.75in, headsep=0.25in}
+
+\newtheorem{thm}{Theorem}
+\newtheorem{conjecture}[thm]{Rule of thumb}
+\newtheorem{prop}[thm]{Proposition}
+\newtheorem{app}[thm]{Application}
+\newtheorem{axiom}[thm]{Axiom}
+\newtheorem{code}{Code}
+\newtheorem{assumption}{Assumption}
+\newtheorem{con}[thm]{Conjecture}
+\theoremstyle{remark}
+\newtheorem{remark}[thm]{Remark}
+\newtheorem{theorem}{Theorem}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{lemma}{Lemma}
+\newtheorem{alg}[theorem]{Algorithm}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{example}{Example}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{property}{Property}
+\newtheorem{algorithm}[theorem]{Algorithm}
+
+% Flexibility for headers and footers
+\usepackage{fancyhdr}
+\pagestyle{fancyplain}
+\headsep 0.2in
+\thispagestyle{empty}
+\setlength{\headheight}{14pt}
+\fancyhf{} %clear all header and footer fields
+\lfoot{\bf \footnotesize ACMS \emph{Journal and Proceedings}}
+\cfoot{\bf -- \thepage~--}
+\rfoot{\bf \footnotesize 23rd Biennial Conference}
+
+\usepackage[pdftex, breaklinks=true]{hyperref}
+\hypersetup{
+	unicode=false,								% non-Latin characters in Acrobat's bookmarks
+	pdftoolbar=true,							% show Acrobat's toolbar?
+	pdfmenubar=true,							% show Acrobat's menu?
+	pdffitwindow=true,							% page fit to window when opened
+	pdftitle={ACMS Jorunal and Proceedings},	% title
+	pdfsubject={Subject},						% subject of the document
+	pdfnewwindow=true,							% links in new window
+	pdfkeywords={keywords},						% list of keywords
+	colorlinks=true,							% false: boxed links; true: colored links
+	linkcolor=blue,								% color of internal links
+	citecolor=blue,								% color of links to bibliography
+	filecolor=magenta,							% color of file links
+	urlcolor=blue,								% color of external links
+	linktoc=all
+}
+
+\renewcommand{\headrulewidth}{0pt}
+
+\parindent 0in
+
+\renewcommand\thesection{\arabic{section}}
+
+\pdfstringdefDisableCommands{%
+  \def\\{}%
+  \def\texttt#1{<#1>}%
+}
+
+%-------- Begin redefinition of \abstract{} so that there is no pagebreak afterwards
+\makeatletter
+\renewenvironment{abstract}{%
+      \@beginparpenalty\@lowpenalty
+      \small
+      \begin{center}%
+        \bfseries \abstractname
+        \@endparpenalty\@M
+		\vspace*{-0.2in}
+      \end{center}\quotation}%
+     {\endquotation\par%
+     }
+\makeatother
+%-------- End redefinition of \abstract{} so that there is no pagebreak afterwards
+
+% Set the bibliography heading to be References
+\renewcommand\bibname{References}
+\parskip 12pt
+
+\fancyhf{} %clear all header and footer fields
+\lfoot{\bf \footnotesize ACMS \emph{Journal and Proceedings}}
+\cfoot{\bf -- \thepage~--}
+\rfoot{\bf \footnotesize 23rd Biennial Conference}
+
+\begin{document}
+
+% Here is where your paper begins
+
+\begin{center}
+{\bf \LARGE Paper Title}\\
+
+\medskip
+
+% Give your personal website (if any), and institution website below
+Author Website \, (Institution Website)
+
+% Change ``authorlastname'' to your last name in the field below.
+\label{authorlastname}
+
+% Here is where a photo of you will appear in the journal.
+\fbox{
+\begin{minipage}[t]{1.03in}
+\vspace*{0pt}
+Your photo.
+% \includegraphics[height=1.26in]{your-photo.jpg (or .png, etc.)}
+% Crop your photo to 4x5 scale, with a size of no larger than 70 kb.
+\end{minipage}
+\begin{minipage}[t]{4.5in}
+\vspace*{0pt}
+Here is where you should have a brief bio (of about 70 words).
+\end{minipage}
+}
+\end{center}
+
+\vspace*{-0.2in}
+
+\begin{abstract}
+\noindent
+Your abstract goes here
+\end{abstract}
+
+\section{Introduction}
+Some (optional) introductory comments go here.
+
+\section{Section Title} 
+Section narrative goes here.
+
+\subsection{Subsection Title} 
+Subsection narrative (if any) goes here.
+
+\subsection{Second Subsection Title} 
+Subsection narrative goes here, assuming a prior subsection.
+
+\section{Section Title}
+Section narrative goes here.
+
+Etc.
+
+% For bibliographic items, it is suggested that, to avoid reference clashes with
+% other authors, you append the initials of your first and last name to the
+% citation tags. In what follows, suppose your name is Linda Johnson, and that
+% the first two citations are to articles by Donald Knuth and Bob Brabenec.
+% Then the bibliography would look like
+\setbiblabelwidth{10}
+\begin{thebibliography}{99}
+\bibitem{Knuth-lj}{
+Bibliographic information for citation Knuth-lj}
+
+\bibitem{Brabenec-lj}{Bibliographic information for citation Brabenec-lj, etc.}
+
+\end{thebibliography}
+
+\end{document}
+
