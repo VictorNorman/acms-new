@@ -51,17 +51,26 @@ const isItemActive = (item) => {
 		<a class="site-brand" href="/" aria-label="ACMS Home">
 			<img src="/media/apple-touch-icon.png" alt="ACMS" width="180" height="180" loading="eager" decoding="async" />
 		</a>
-		<nav aria-label="Main Navigation" class="site-nav">
+		<button type="button" class="nav-toggle" aria-expanded="false" aria-controls="primary-navigation" aria-label="Toggle navigation menu">
+			<span class="nav-toggle-bars" aria-hidden="true"></span>
+		</button>
+		<nav aria-label="Main Navigation" class="site-nav" id="primary-navigation">
 			<ul class="site-nav-list">
 				{navItems.map((item) => {
 					const isActive = isItemActive(item);
 
 					return (
 						<li class={["site-nav-item", item.children ? "has-dropdown" : ""].filter(Boolean).join(" ")}>
-							<a href={item.href} class={["site-nav-link", isActive ? "active" : ""].filter(Boolean).join(" ")}>
-								{item.label}
-								{item.children && <span class="site-nav-caret" aria-hidden="true"></span>}
-							</a>
+							<div class="site-nav-row">
+								<a href={item.href} class={["site-nav-link", isActive ? "active" : ""].filter(Boolean).join(" ")}>
+									{item.label}
+								</a>
+								{item.children && (
+									<button type="button" class="site-nav-toggle" aria-expanded="false" aria-label={`Toggle ${item.label} submenu`}>
+										<span class="site-nav-caret" aria-hidden="true"></span>
+									</button>
+								)}
+							</div>
 							{item.children && (
 								<ul class="site-submenu" role="menu">
 									{item.children.map((child) => {
@@ -84,6 +93,44 @@ const isItemActive = (item) => {
 		</nav>
 	</div>
 </header>
+
+<script>
+	const toggle = document.querySelector<HTMLButtonElement>(".nav-toggle");
+	const nav = document.querySelector<HTMLElement>(".site-nav");
+
+	const setMenuOpen = (open: boolean) => {
+		if (!toggle || !nav) return;
+		nav.classList.toggle("open", open);
+		toggle.classList.toggle("open", open);
+		toggle.setAttribute("aria-expanded", String(open));
+	};
+
+	toggle?.addEventListener("click", () => {
+		setMenuOpen(!nav?.classList.contains("open"));
+	});
+
+	document.querySelectorAll<HTMLButtonElement>(".site-nav-toggle").forEach((btn) => {
+		btn.addEventListener("click", (event) => {
+			event.preventDefault();
+			const item = btn.closest(".site-nav-item");
+			const isOpen = item?.classList.toggle("submenu-open");
+			btn.setAttribute("aria-expanded", String(Boolean(isOpen)));
+		});
+	});
+
+	document.addEventListener("click", (event) => {
+		if (!nav || !toggle) return;
+		if (nav.classList.contains("open") && !nav.contains(event.target as Node) && !toggle.contains(event.target as Node)) {
+			setMenuOpen(false);
+		}
+	});
+
+	document.addEventListener("keydown", (event) => {
+		if (event.key === "Escape") {
+			setMenuOpen(false);
+		}
+	});
+</script>
 
 <style>
 	.site-header {
@@ -117,6 +164,62 @@ const isItemActive = (item) => {
 		object-fit: contain;
 	}
 
+	.nav-toggle {
+		display: none;
+		align-items: center;
+		justify-content: center;
+		width: 2.25rem;
+		height: 2.25rem;
+		margin-left: auto;
+		padding: 0;
+		border: none;
+		background: transparent;
+		cursor: pointer;
+	}
+
+	.nav-toggle-bars,
+	.nav-toggle-bars::before,
+	.nav-toggle-bars::after {
+		display: block;
+		width: 1.4rem;
+		height: 2px;
+		background: #333333;
+		transition: transform 0.2s ease, opacity 0.2s ease;
+	}
+
+	.nav-toggle-bars {
+		position: relative;
+	}
+
+	.nav-toggle-bars::before,
+	.nav-toggle-bars::after {
+		content: "";
+		position: absolute;
+		left: 0;
+	}
+
+	.nav-toggle-bars::before {
+		top: -6px;
+	}
+
+	.nav-toggle-bars::after {
+		top: 6px;
+	}
+
+	.nav-toggle.open .nav-toggle-bars {
+		background: transparent;
+	}
+
+	.nav-toggle.open .nav-toggle-bars::before {
+		top: 0;
+		transform: rotate(45deg);
+	}
+
+	.nav-toggle.open .nav-toggle-bars::after {
+		top: 0;
+		transform: rotate(-45deg);
+	}
+
 	.site-nav {
 		margin-left: auto;
 		overflow: visible;
@@ -139,6 +242,11 @@ const isItemActive = (item) => {
 
 	.site-nav::-webkit-scrollbar {
 		display: none;
+	}
+
+	.site-nav-row {
+		display: flex;
+		align-items: center;
 	}
 
 	.site-nav-link {
@@ -165,6 +273,18 @@ const isItemActive = (item) => {
 		border-bottom-color: #e91e63;
 	}
 
+	.site-nav-toggle {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		padding: 0.2rem 0.35rem;
+		margin-left: 0.1rem;
+		border: none;
+		background: transparent;
+		color: inherit;
+		cursor: pointer;
+	}
+
 	.site-nav-caret {
 		width: 0;
 		height: 0;
@@ -172,6 +292,11 @@ const isItemActive = (item) => {
 		border-right: 3px solid transparent;
 		border-top: 4px solid currentColor;
 		opacity: 0.9;
+		transition: transform 0.2s ease;
+	}
+
+	.site-nav-item.submenu-open .site-nav-caret {
+		transform: rotate(180deg);
 	}
 
 	.site-submenu {
@@ -218,6 +343,7 @@ const isItemActive = (item) => {
 
 	@media (max-width: 900px) {
 		.site-header-inner {
+			position: relative;
 			gap: 0.85rem;
 			padding: 0.65rem 0.75rem;
 		}
@@ -231,13 +357,74 @@ const isItemActive = (item) => {
 			height: 1rem;
 		}
 
+		.nav-toggle {
+			display: inline-flex;
+		}
+
 		.site-nav {
-			overflow-x: auto;
-			overflow-y: visible;
+			display: none;
+			position: absolute;
+			top: 100%;
+			left: 0;
+			right: 0;
+			margin-left: 0;
+			overflow-y: auto;
+			max-height: calc(100vh - 100%);
+			background: #ffffff;
+			border-top: 1px solid #dedede;
+			box-shadow: 0 8px 18px rgba(0, 0, 0, 0.1);
+		}
+
+		.site-nav.open {
+			display: block;
 		}
 
 		.site-nav-list {
-			gap: 0.75rem;
+			flex-direction: column;
+			align-items: stretch;
+			gap: 0;
+			padding: 0.4rem 0;
+		}
+
+		.site-nav-item {
+			width: 100%;
+		}
+
+		.site-nav-row {
+			justify-content: space-between;
+		}
+
+		.site-nav-link {
+			width: 100%;
+			padding: 0.85rem 1.25rem;
+			border-bottom: none;
+		}
+
+		.site-nav-toggle {
+			padding: 0.85rem 1.25rem;
+		}
+
+		.site-submenu {
+			position: static;
+			display: none;
+			min-width: 0;
+			border: none;
+			box-shadow: none;
+			background: #fafafa;
+			padding: 0.2rem 0;
+		}
+
+		.site-nav-item.has-dropdown:hover > .site-submenu,
+		.site-nav-item.has-dropdown:focus-within > .site-submenu {
+			display: none;
+		}
+
+		.site-nav-item.submenu-open > .site-submenu {
+			display: block !important;
+		}
+
+		.site-submenu a {
+			padding: 0.7rem 1.25rem 0.7rem 2rem;
 		}
 	}
 </style>
