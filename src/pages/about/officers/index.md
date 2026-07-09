@@ -3,7 +3,7 @@ title: "Officers"
 layout: ../../../layouts/MainLayout.astro
 ---
 
-![](/media/Edwin-Ding-4I7A3493-1024x683.jpg)
+![](/media/officers.jpg)
 
 ### Executive Secretary
 
