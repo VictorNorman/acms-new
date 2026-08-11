@@ -10,7 +10,6 @@ There is currently no charge for listing positions that may be of interest to ou
 - College of the Ozarks — Full-time faculty in Mathematics, beginning fall, 2026. Contact [Daniel Kline](mailto:dkline@cofo.edu) for more information.
 - [Villanova University](https://jobs.villanova.edu/postings/33639) — Full-time Assistant Teaching Professor of Mathematics, beginning August 2026. (posted 3/10/2026)
 - [Villanova University](https://jobs.villanova.edu/postings/33638) — Full-time Assistant Teaching Professor of Statistics, beginning August 2026. (posted 3/10/2026)
-- [George Fox University](https://georgefoxfaculty.applicantpool.com/jobs/1264581) — Full-time, tenure-track, faculty position, beginning August 2026. (posted 12/6/2025)
 - [Northwestern College (Iowa)](https://www.nwciowa.edu/employment/openings/401/faculty-position-in-physics-or-mathematics) — Full-time tenure-track assistant professor in Physics or Mathematics, starting August 2026. (posted 12/6/2025)
 - [Oklahoma Baptist University](https://www.okbu.edu/hr/job-forms/assistant-or-associate-professor-of-mathematics.pdf) — Full-time Mathematics faculty, starting Fall 2026. (posted 12/6/2025)
 - [Seattle Pacific University](https://spu.wd12.myworkdayjobs.com/en-US/SPU/details/Assistant-Professor--Mathematics-or-Data-Science_JR100168) — Assistant Professor, Mathematics or Data Science, beginning Sept. 1, 2026. (posted 12/6/2025)
@@ -18,8 +17,6 @@ There is currently no charge for listing positions that may be of interest to ou
 - [Dordt University](https://ibmxjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/267/?utm_medium=jobshare&utm_source=External+Job+Share) — Full-time Faculty in Mathematics and Statistics, starting summer 2026. (posted 11/8/2025)
 - The King’s University — Full-time faculty in Math Education. Contact [Andrew Kirk](mailto:andrew.krk@kingsu.ca). (posted 11/8/2025)
 - [Houghton University](https://www.houghton.edu/employment/faculty-openings/) – Part time, 5 months adjunct Professor of Mathematics, starting January 2026. (posted 11/8/2025)
-- [Gordon College](https://apply.interfolio.com/172848) — Full-time tenure-track Assistant or Associate professor (also able to teach statistics and/or data science), starting fall 2026 (posted 9/8/2025). 
-- [Azusa Pacific University](https://jobs.silkroad.com/APU/FacultyJobs/jobs/4484) — Full-time Mathematics faculty, starting August 2026 (posted 11/8/2025).
 - [Azusa Pacific University](https://jobs.silkroad.com/APU/FacultyJobs/jobs/4486) — Full-time Statistics faculty, starting August 2026 (posted 11/8/2025).
 - [Regents School of Austin, TX](https://regents-austin.atsondemand.com/index.cfm?fuseaction=512174.viewjobdetail&CID=512174&JID=893827) — high school math teacher, starting July 29, 2025 (posted 3/4/2025)
 - [Campbellsville University](https://campbellsville.wd1.myworkdayjobs.com/en-US/CU/job/Instructor-of-Mathematics_JR101129) (Harrodsburg, KY campus) – full-time Instructor of Mathematics faculty position, beginning August 2025 (posted 3/4/2025)
