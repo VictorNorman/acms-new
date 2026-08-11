@@ -7,7 +7,6 @@ There is currently no charge for listing positions that may be of interest to ou
 
 #### Mathematics
 
-- College of the Ozarks — Full-time faculty in Mathematics, beginning fall, 2026. Contact [Daniel Kline](mailto:dkline@cofo.edu) for more information.
 - [Villanova University](https://jobs.villanova.edu/postings/33639) — Full-time Assistant Teaching Professor of Mathematics, beginning August 2026. (posted 3/10/2026)
 - [Villanova University](https://jobs.villanova.edu/postings/33638) — Full-time Assistant Teaching Professor of Statistics, beginning August 2026. (posted 3/10/2026)
 - [Northwestern College (Iowa)](https://www.nwciowa.edu/employment/openings/401/faculty-position-in-physics-or-mathematics) — Full-time tenure-track assistant professor in Physics or Mathematics, starting August 2026. (posted 12/6/2025)
@@ -31,6 +30,7 @@ There is currently no charge for listing positions that may be of interest to ou
 
 #### Computer Science
 
+- College of the Ozarks — Full-time faculty in Computer Science, beginning Fall 2026. Contact [Daniel Kline](mailto:dkline@cofo.edu) for more information.
 - [Mississippi Christian University](https://www.mc.edu/offices/human-resources/employment?rID[32]=462) – Assistant/Associate Professor of Computer Science, starting fall 2026 or spring 2027 (posted 7/8/2026).
 - [Taylor University](https://www.schooljobs.com/careers/tayloredu/jobs/5135519/tenure-track-in-computer-science-and-engineering) — Tenure-track, beginning August 2026. (posted 12/6/2025)
 - [Messiah University](https://jobs.messiah.edu/postings/30580) — Full-time/term-tenure track, starting fall 2026 (posted 12/6/2025)
