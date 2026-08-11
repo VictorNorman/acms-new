@@ -30,7 +30,7 @@ There is currently no charge for listing positions that may be of interest to ou
 
 #### Computer Science
 
-- [College of the Ozarks](https://www.cofo.edu/Portals/0/Accolades/681e1a20-5c8d-4d8f-9842-0cef0c0c8207.pdf?ver=Dd-7VuD5fukkAFl41EbiLw%3d%3d) — Full-time faculty in Computer Science, beginning Fall 2026. Contact [Daniel Kline](mailto:dkline@cofo.edu) for more information.
+- [College of the Ozarks](https://www.cofo.edu/Portals/0/Accolades/681e1a20-5c8d-4d8f-9842-0cef0c0c8207.pdf?ver=Dd-7VuD5fukkAFl41EbiLw%3d%3d) — Full-time faculty in Computer Science, beginning Fall 2026.
 - [Mississippi Christian University](https://www.mc.edu/offices/human-resources/employment?rID[32]=462) – Assistant/Associate Professor of Computer Science, starting fall 2026 or spring 2027 (posted 7/8/2026).
 - [Taylor University](https://www.schooljobs.com/careers/tayloredu/jobs/5135519/tenure-track-in-computer-science-and-engineering) — Tenure-track, beginning August 2026. (posted 12/6/2025)
 - [Messiah University](https://jobs.messiah.edu/postings/30580) — Full-time/term-tenure track, starting fall 2026 (posted 12/6/2025)
