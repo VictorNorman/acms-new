@@ -25,11 +25,6 @@ There is currently no charge for listing positions that may be of interest to ou
 - [Concordia University, Irvine](https://cui.applicantpro.com/jobs/3604441) – full-time faculty in mathematics, starting Fall 2025 (posted 3/4/2025).
 - [Corban University](https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=4d30e8ed-ba40-45a6-b96b-fda3ed12cc9b&ccId=19000101_000001&lang=en_US&selectedMenuKey=CareerCenter&jobId=517050) – full-time tenure-track Assistant Professor of mathematics (MA or MS required), starting Fall 2025. (posted 12/19/25)
 - [Westmont College](https://www.westmont.edu/office-provost/open-positions) – full-time, tenure track, assistant professor of Mathematics, starting August 2025. (posted 12/19/25)
-- [Dordt University](https://ibmxjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2/job/71/?utm_medium=jobshare) – full-time faculty, Mathematics, Statistics, or Data Science/Analysis, beginning summer 2025. (posted 11/1/24)
-- [Cedarville University](https://us242.dayforcehcm.com/CandidatePortal/en-US/cedarville/SITE/CANDIDATEPORTAL/Posting/View/429) – full-time tenure-track eligible Assistant/Associate Professor of Mathematics (posted 10/15/2024).
-- [Bethel University (MN)](https://facultycareers-bethel.icims.com/jobs/1981/computer-science-one-year-faculty-appointment/job) – Full-time 1-year faculty position, beginning Fall 2024
-- [Sterling College](https://www.sterling.edu/employment/mathematics-faculty-position-1) – Full-time tenure-track equivalent position as Assistant Professor of Mathematics (or higher rank if appropriate), beginning either January 2025 or August 2025 (posted 10/15/2024).
-- [Houston Christian University](https://hc.edu/about-hcu/campus-resources/job-opportunities/?department=BC9C9F65-EC22-D415-2E56-1AF97681877A) – Full-time Assistant, Associate, Full, Instructor, and part-time Adjunct Professors, starting fall 2024-2025 (posted 3/7/2024).
 
 #### Computer Science
 
