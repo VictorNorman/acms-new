@@ -7,6 +7,7 @@ There is currently no charge for listing positions that may be of interest to ou
 
 #### Mathematics
 
+- [Calvin University](https://calvin.wd5.myworkdayjobs.com/en-US/CalvinUniversityCareers/job/Mathematics---Statistics-Faculty_R-4958) — Full-time tenure-track in Applied Mathematics, Statistics, or Data Science, starting August 2027. (posted 10/10/2026)
 - [Biola University](https://biola.csod.com/ux/ats/careersite/1/home/requisition/2656) — Part-time or Full-time Statistics/Data Science Consultant, beginning Fall 2027. (posted 10/10/2026)
 - [New College Franklin](https://www.newcollegefranklin.edu/employment) — Full-time Teaching Professor of Quadrivium, beginning August 2027. (posted 10/10/2026)
 - [Villanova University](https://jobs.villanova.edu/postings/33639) — Full-time Assistant Teaching Professor of Mathematics, beginning August 2026. (posted 3/10/2026)
