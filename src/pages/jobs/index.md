@@ -33,6 +33,7 @@ There is currently no charge for listing positions that may be of interest to ou
 
 #### Computer Science
 
+- [Grove City College](https://www.gcc.edu/Utility/Portals/Employment/Computer-Science-Faculty) — Full-time Assistant/Associate/Full Professor of Computer Science. (posted 10/10/2026)
 - [Biola University](https://biola.csod.com/ux/ats/careersite/1/home/requisition/2493) — Full-time Wesley and Joy Daniels Endowed Chair in Software Engineering, beginning Fall 2027. (posted 10/10/2026)
 - [Biola University](https://biola.csod.com/ux/ats/careersite/1/home/requisition/2494) — Full-time John and Virginia Elsen Endowed Chair in Artificial Intelligence, beginning Fall 2027. (posted 10/10/2026)
 - [College of the Ozarks](https://www.cofo.edu/Portals/0/Accolades/681e1a20-5c8d-4d8f-9842-0cef0c0c8207.pdf?ver=Dd-7VuD5fukkAFl41EbiLw%3d%3d) — Full-time faculty in Computer Science, beginning Fall 2027.
@@ -51,4 +52,5 @@ There is currently no charge for listing positions that may be of interest to ou
 
 #### Engineering
 
+- [Grove City College](https://www.gcc.edu/Utility/Portals/Employment/Electrical-Computer-Engineering-Faculty) — Assistant/Associate/Full Professor of Electrical & Computer Engineering. (posted 10/10/2026)
 - [Azusa Pacific University](https://jobs.silkroad.com/APU/FacultyJobs/jobs/4338) — Full-time cybersecurity faculty, starting August 2026 (posted 11/8/2025).
