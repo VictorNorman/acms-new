@@ -7,6 +7,7 @@ There is currently no charge for listing positions that may be of interest to ou
 
 #### Mathematics
 
+- [Belmont University](https://belmont.csod.com/ux/ats/careersite/10/home/requisition/4948?c=belmont&cfdd[0][id]=22&cfdd[0][options][0]=58) — Tenure-track Assistant Professor of Mathematics, starting Fall 2027. Teaching experience strongly preferred. (posted 10/10/2026)
 - [Calvin University](https://calvin.wd5.myworkdayjobs.com/en-US/CalvinUniversityCareers/job/Mathematics---Statistics-Faculty_R-4958) — Full-time tenure-track in Applied Mathematics, Statistics, or Data Science, starting August 2027. (posted 10/10/2026)
 - [Biola University](https://biola.csod.com/ux/ats/careersite/1/home/requisition/2656) — Part-time or Full-time Statistics/Data Science Consultant, beginning Fall 2027. (posted 10/10/2026)
 - [New College Franklin](https://www.newcollegefranklin.edu/employment) — Full-time Teaching Professor of Quadrivium, beginning August 2027. (posted 10/10/2026)
@@ -28,6 +29,7 @@ There is currently no charge for listing positions that may be of interest to ou
 
 #### Computer Science
 
+- [Belmont University](https://belmont.csod.com/ux/ats/careersite/10/home/requisition/4947?c=belmont&cfdd[0][id]=22&cfdd[0][options][0]=58) — Tenure-track Assistant Professor of Computer Science, starting Fall 2027. Teaching experience strongly preferred. (posted 10/10/2026)
 - [Grove City College](https://www.gcc.edu/Utility/Portals/Employment/Computer-Science-Faculty) — Full-time Assistant/Associate/Full Professor of Computer Science. (posted 10/10/2026)
 - [Biola University](https://biola.csod.com/ux/ats/careersite/1/home/requisition/2493) — Full-time Wesley and Joy Daniels Endowed Chair in Software Engineering, beginning Fall 2027. (posted 10/10/2026)
 - [Biola University](https://biola.csod.com/ux/ats/careersite/1/home/requisition/2494) — Full-time John and Virginia Elsen Endowed Chair in Artificial Intelligence, beginning Fall 2027. (posted 10/10/2026)
