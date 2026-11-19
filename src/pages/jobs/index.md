@@ -7,6 +7,8 @@ There is currently no charge for listing positions that may be of interest to ou
 
 #### Mathematics
 
+- [Point Loma Nazarene University](https://pointloma.wd1.myworkdayjobs.com/en-US/PLNUCareers/details/Full-Time--Tenure-track-Faculty--Mathematics--Statistics-or-Data-Science_R0004503) — Full-time tenure-track faculty in Mathematics, Statistics, or Data Science, in the Department of Mathematical, Information and Computer Sciences. (posted 11/18/2026)
+- [Cedarville University](https://jobs.dayforcehcm.com/en-US/cedarville/faculty/jobs/2481) — Assistant/Associate Professor of Mathematics. (posted 11/18/2026)
 - [Belmont University](https://belmont.csod.com/ux/ats/careersite/10/home/requisition/4948?c=belmont&cfdd[0][id]=22&cfdd[0][options][0]=58) — Tenure-track Assistant Professor of Mathematics, starting Fall 2027. Teaching experience strongly preferred. (posted 10/10/2026)
 - [Calvin University](https://calvin.wd5.myworkdayjobs.com/en-US/CalvinUniversityCareers/job/Mathematics---Statistics-Faculty_R-4958) — Full-time tenure-track in Applied Mathematics, Statistics, or Data Science, starting August 2027. (posted 10/10/2026)
 - [Biola University](https://biola.csod.com/ux/ats/careersite/1/home/requisition/2656) — Part-time or Full-time Statistics/Data Science Consultant, beginning Fall 2027. (posted 10/10/2026)
@@ -29,6 +31,7 @@ There is currently no charge for listing positions that may be of interest to ou
 
 #### Computer Science
 
+- [Mississippi College](https://www.mc.edu/offices/human-resources/employment?rID[32]=462) — Tenure-track Assistant or Associate Professor of Computer Science. Ph.D. in Computer Science or a closely related discipline required. Review of applications is rolling. (posted 11/18/2026)
 - [Belmont University](https://belmont.csod.com/ux/ats/careersite/10/home/requisition/4947?c=belmont&cfdd[0][id]=22&cfdd[0][options][0]=58) — Tenure-track Assistant Professor of Computer Science, starting Fall 2027. Teaching experience strongly preferred. (posted 10/10/2026)
 - [Grove City College](https://www.gcc.edu/Utility/Portals/Employment/Computer-Science-Faculty) — Full-time Assistant/Associate/Full Professor of Computer Science. (posted 10/10/2026)
 - [Biola University](https://biola.csod.com/ux/ats/careersite/1/home/requisition/2493) — Full-time Wesley and Joy Daniels Endowed Chair in Software Engineering, beginning Fall 2027. (posted 10/10/2026)
